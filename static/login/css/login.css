@@ -1,0 +1,27 @@
+
+
+.w1190{width:1190px; margin:0 auto; overflow:hidden;}
+.nike { height:30px; line-height:30px; margin:13px 0 10px 0; color:#666; overflow:hidden; }
+.nike a { padding:0 4px 0 0; color:#666; text-decoration:none; }
+.nike a:hover {color:#b7010c; text-decoration:none; }
+.b_login{ margin:14px 0 55px 0; clear:both; overflow:hidden; position:relative; }
+.b_login .ly_rt{ float:right; width:372px; margin:30px 44px 30px 0; padding:11px 12px; overflow:hidden; position:relative;}
+.mod_reglog .white_bg{ position:absolute; background-color:#fff; width:100%; height:100%; opacity:0.8;  border-radius:5px; top:0; left:0;}
+.mod_reglog .bd { position:relative; width:342px; padding:12px 12px 12px 16px; background-color:#fff; zoom:1; }
+.mod_reglog .bd .hd{ padding:12px 0 16px; margin-bottom:38px; height:20px; border-bottom:1px solid #d6d6d6; overflow:hidden;}
+.mod_reglog .hd .tit{ float:left; font:18px/20px "微软雅黑";}
+.mod_reglog .hd .reg_txt{ float:right; height:14px; margin-top:6px; line-height:14px; color:#666;}
+.mod_reglog .hd a{color:#0759ad; text-decoration:underline;}
+/*登录*/
+.b_login .ko{ position:relative; overflow:hidden;}
+.b_login .ko .b_input{ height:62px; padding-left:30px; overflow:hidden;}
+.b_login .ko .txt{ float:left; height:28px;line-height:28px; font-weight:bold; color:#333; overflow:hidden;}
+.b_login .b_inputDiv{width:280px; height:32px; background:url(../../base/img/regLog.png) 0 -32px no-repeat;  clear:both;  }
+.b_login .ko .fb{ width:270px; height:32px;padding:0 5px; font:12px/32px verdana; color:#666;background:none;border:none; }
+.b_login .for_pwd{position:absolute; display:block; left:250px; top:78px; height:28px; line-height:28px; color:#0759ad;}
+.b_login .for_pwd:hover{ text-decoration:underline;color:#0759ad;}
+.b_login .ko .ff{ float:left; width:50px; height:18px; font:12px/18px verdana; padding:0 5px; margin-right:5px; border:1px solid #c2c2c2;}
+.b_login .ko .auto_log{ margin:10px 0 10px 30px; height:22px;  overflow:hidden;}
+.b_login .ko .cbox{list-style: none outside none; border: medium none; padding:2px 4px 0 0 ; *padding:0px 4px 0 0 ; _padding:0px 4px 0 0 ;}
+.b_login .ko span{ display:block; float:left; }
+.b_login .ko .submit{ width:280px; height:32px; margin:0 0 30px 30px; background:#ffb20c; font:bold 14px/32px "微软雅黑"; text-align:center; color:#fff; cursor:pointer; overflow:hidden;}

@@ -1,0 +1,28 @@
+/* 头部轮播图部分*/
+                /*{% for wheel in wheels %}*/
+                    /*<div class="swiper-slide">*/
+                        /*<img src="{{ wheel.img }}" alt="{{ wheel.name }}">*/
+                    /*</div>*/
+                /*{% endfor %}*/
+#topSwiper {
+    height: 8rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+#topSwiper .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+#topSwiper .swiper-wrapper a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#topSwiper img{
+    width: 100%;
+    height: 100%;
+}
+#topSwiper .swiper-pagination{
+    bottom: 0px;
+}

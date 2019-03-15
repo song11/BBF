@@ -1,0 +1,92 @@
+
+* { margin: 0; padding: 0;  }
+a { text-decoration: none; cursor: pointer; }
+
+
+/*页面主体  开始*/
+.main_sh_wp { width: 100%; min-width: 1190px; padding-top: 26px; border-top: 2px solid #c5c5c5;  }
+.sh_wp_content { width: 1190px; margin: 0 auto; overflow: hidden; }
+.sh_wp_content .swc_top { color: #666; height: 34px; line-height: 34px; overflow: hidden; padding-bottom: 3px; }
+.sh_wp_content .swc_top span { color: #333;}
+.sh_wp_content .swc_top a{ color: #666; }
+
+/*购物车  无商品*/
+.no_shp { width: 1188px; margin: 50px auto 150px; overflow: hidden; }
+.no_shp .cont { width: 374px; margin: 40px auto; overflow: hidden; }
+.no_shp .cont .lshp { float: left; width: 85px; height: 75px; overflow: hidden; background: url(../img/cart_icon_new_10.png) no-repeat; }
+.no_shp .cont .rshp { float: left; padding-left: 20px; padding-top: 8px; overflow: hidden; }
+.no_shp .cont .rshp .tit { font: bold 14px/20px "宋体"; padding-bottom: 5px; }
+.no_shp .cont .rshp span { display: block; color: #4e4e4e; overflow: hidden; line-height: 20px; }
+.no_shp .cont .rshp a {color: #0966d0;  }
+.no_shp .cont .rshp a:hover { text-decoration: underline; }
+
+
+/*购物导向图*/
+.m_pro { width: 1190px; height: 44px; margin: 0 auto; padding: 34px 0 20px; overflow: hidden; }
+.m_pro span { display: block; float: left; height: 44px; overflow: hidden; }
+.m_pro .p1 { width: 459px; background: url(../../base/img/cart_icon_new_01.jpg); }
+.m_pro .p2 { width: 414px; background: url(../../base/img/cart_icon_new_02.jpg); }
+.m_pro .p3 { width: 317px; background: url(../../base/img/cart_icon_new_03.jpg); }
+
+
+.cart_t { text-align: center; margin-top: 12px; }
+.cart_t th { height: 31px; line-height: 31px; border-top: 2px solid #e2e2e2; font-weight: normal; }
+
+/*购物车中的商品*/
+.shopper_n { wwidth: 1190px; height: 40px; line-height: 40px; margin-top: 10px;}
+.shopper_n .shopChoose { float: left; height: 40px; }
+.shopper_n .shopCheckAll { margin-right: 15px; vertical-align: middle; }
+.shopper_n .shopChoose a { color: #da0f0f; }
+.shopper_n .shopChoose a:hover { text-decoration: underline; }
+.cart_list {width: 1180px; border: 1px solid#e1dfdd; }
+.cart_list td {text-align: center;  padding: 16px 0; border-bottom: 1px dotted #dbd8d2; }
+.cart_list td .b_pord{ width: 300px; overflow: hidden; }
+.cart_list td .b_pord .pic { float: left; width: 58px; height: 58px; border: 1px solid#c8bfbf; margin-right: 12px; overflow: hidden; }
+.cart_list td .b_pord .pord_n  { width: 213px; height: 22px; line-height: 22px; overflow: hidden; }
+.cart_list td .b_pord .pord_n a { color: inherit; }
+
+.cart_list td .b_price { height: 48px; line-height: 22px; overflow: hidden; }
+.cart_list td .b_price .m_price , .cart_list td .b_price .s_price { color: #999; text-align: center; font-family: "microsoft yahei"; }
+.cart_list td .b_price .s_price .price { color: #666; font-weight: 700; }
+
+.cart_list td .pref { padding: 0 10px; color: #5e5e5e; overflow: hidden; text-align: center; }
+
+.cart_list td .mo_num  { width: 86px; height: 23px; background: transparent url(../img/cart_icon.png) no-repeat 0 -211px; margin-left: 10px; }
+.cart_list td .mo_num .rec ,.cart_list td .mo_num .add { display: block; float: left; width: 22px; height: 22px;  overflow: hidden; cursor: pointer; }
+.cart_list td .mo_num .num { float: left; width: 42px; height: 19px; font: 14px/22px arial; margin: 2px 0; text-align: center; color: #7d7d7d; border: none; overflow: hidden; }
+.cart_list td .cart_storage_tips { display: inline-block; margin-top: 5px;}
+
+.cart_list td .s_total { width: 88px; color: #ed3030; font-family: "微软雅黑"; overflow: hidden; text-align: center; font-size: 14px;  }
+.cart_list td .s_total .st { font-weight: 700; font-size: 12px; }
+
+.cart_list td .opt { padding-right: 14px;  }
+.cart_list td .opt a { color: #333; text-decoration: none; }
+
+
+/*提交*/
+.b_total { width: 1190px; margin: 10px auto 30px; overflow: hidden; }
+.b_total .total_choose { color: #666; float: left;  height: 30px; line-height: 40px; overflow: hidden; padding-top: 12px; width: 140px; } 
+.b_total .total_choose input {vertical-align: middle; margin-right: 2px;}
+.b_total .total_choose label { color: #898989; }
+.b_total .total_choose a { padding-left: 10px; color: #898989; }
+.b_total .total { width: 900px; float: left; color: #666; line-height: 30px; padding-top: 12px; text-align: right; overflow: hidden; }
+.b_total .total .t_price { font: 24px/30px verdana; color: #d20005; padding-top: 10px; }
+.b_total .buy_btn { float: right; width: 129px; height: 41px; margin-top: 7px; background: #ff7800; border-radius: 5px; border: 0; cursor: pointer;overflow: hidden; font-size: 16px; font-family: "microsoft yahei"; color: #fff; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

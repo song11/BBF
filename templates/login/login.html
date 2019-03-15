@@ -1,0 +1,65 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}
+    登录
+{% endblock %}
+{% block extcss %}
+    <link rel="stylesheet" href="{% static 'login/css/login.css' %}"/>
+{% endblock %}
+
+{% block extjs %}
+    <script src="{% static 'login/js/login.js' %}"></script>
+{% endblock %}
+
+{% block top_search %}
+
+{% endblock %}
+
+{% block content %}
+<!-- 登录页   开始 -->
+		<div class="w1190" id="classify">
+			<div class="nike"><span>当前位置：</span><a href="" >八百方网上药店</a> > 登录</div>
+			<div class="b_login mod_reglog" style="background: url({% static 'base/img/20160907154556_102.jpg' %});">
+				<!--登录框   开始-->
+				<div class="ly_rt">
+			    	<!-- 登录框背景 -->
+			    	<div class="white_bg"></div>
+					<div class="bd">
+						<div class="hd">
+							<p class="tit">登录八百方</p>
+							<p class="reg_txt">还不是八百方用户？<a href="../register/register.html" target="_blank">立即注册</a></p>
+						</div>
+
+						<div class="ko">
+							<div class="b_input">
+				            	<p class="txt">用户名/手机号/邮箱：</p>
+				            	<div class="b_inputDiv">
+				            		<input name="account" id="k_account" class="fb" type="text"  value="" maxlength="45" />
+				            	</div>
+			            	</div>
+
+				            <div class="b_error username"></div>
+
+				            <div class="b_input" style="margin-top: 15px;">
+				            	<p class="txt">密码：</p>
+				               <div class="b_inputDiv"> <input name="pwd" id="k_pwd" class="fb" type="password" value="" maxlength="16"/></div>
+				            </div>
+
+				            <div class="b_error pwd"></div>
+
+				           	<div class="auto_log">
+				            	<span class="cbox" ><input name="status" id="status" type="checkbox" value="" /></span><span>两周内免登录</span>
+				            	<a target="_blank" href='http://www.800pharm.com/shop/member/forget_pwd.html' class="for_pwd" >忘记密码？</a>
+				            </div>
+				            <div id="submitId" class="submit">登   录</div>
+				       </div>
+					</div>
+				</div>
+				<!--登录框   开始-->
+			</div>
+		</div>
+		<!-- 登录页   结束 -->
+{% endblock %}
+		
+

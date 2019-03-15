@@ -1,0 +1,1210 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}
+    首页
+{% endblock %}
+
+{% block extcss %}
+    <link rel="stylesheet" href="{% static 'index/css/swiper.min.css' %}">
+{% endblock %}
+{% block extjs %}
+    <script src="{% static 'index/js/index.js' %}"></script>
+    <script src="{% static 'index/js/swiper.min.js' %}"></script>
+{% endblock %}
+{% block content %}
+    <!--页头导航部分-->
+    <div class="top_siteNav">
+        <!--左侧分类及其展开-->
+        <div class="main_sort">
+            <!--头导航    --  导航全部分类-->
+            <div class="main_sort_top">
+                <a href="#" class="all_sort" style="color: white; font-family: 'microsoft yahei';font-size: 16px;">全部商品分类</a>
+                <div class="sor_list">
+                    <!--全部商品分类详情-->
+                    <ul class="sor_item">
+                        <li class="sor_item_box">
+                            <a class="sib_abox" href="#"><i class="i-icon nor-1"></i>中西成药</a>
+                            <!--展开分类-->
+                            <div class="item_box_list">
+                                <div class="item_box_bag"></div>
+                                <!--分类详情-->
+                                <div class="sort_detail_list">
+                                    <dl>
+                                        <dt>
+                                            <a href="#">心脑血管<b>></b></a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">高血压</a>
+                                            <a href="#">糖尿病</a>
+                                            <a href="#">冠心病</a>
+                                            <a href="#">高脂肪</a>
+                                            <a href="#">中风偏瘫</a>
+                                            <a href="#">静脉曲张</a>
+                                            <a href="#">心力衰竭</a>
+                                            <a href="#">动脉硬化</a>
+                                            <a href="#">低血压</a>
+                                            <a href="#">脑血栓</a>
+                                            <a href="#">心绞痛</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <a href="#">男科疾病<b>></b></a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">早泄阳痿</a>
+                                            <a href="#">补肾壮阳</a>
+                                            <a href="#">冠心病</a>
+                                            <a href="#">高脂肪</a>
+                                            <a href="#">中风偏瘫</a>
+                                            <a href="#">静脉曲张</a>
+                                            <a href="#">心力衰竭</a>
+                                            <a href="#">动脉硬化</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <a href="#">心脑血管<b>></b></a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">高血压</a>
+                                            <a href="#">糖尿病</a>
+                                            <a href="#">冠心病</a>
+                                            <a href="#">高脂肪</a>
+                                            <a href="#">中风偏瘫</a>
+                                            <a href="#">静脉曲张</a>
+                                            <a href="#">心力衰竭</a>
+                                            <a href="#">动脉硬化</a>
+                                            <a href="#">低血压</a>
+                                            <a href="#">脑血栓</a>
+                                            <a href="#">心绞痛</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <a href="#">肝胆用药<b>></b></a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">高血压</a>
+                                            <a href="#">糖尿病</a>
+                                            <a href="#">冠心病</a>
+                                            <a href="#">高脂肪</a>
+                                            <a href="#">中风偏瘫</a>
+                                            <a href="#">静脉曲张</a>
+                                            <a href="#">心力衰竭</a>
+                                            <a href="#">动脉硬化</a>
+                                            <a href="#">低血压</a>
+                                            <a href="#">脑血栓</a>
+                                            <a href="#">心绞痛</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <a href="#">神经系统<b>></b></a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">高血压</a>
+                                            <a href="#">糖尿病</a>
+                                            <a href="#">冠心病</a>
+                                            <a href="#">高脂肪</a>
+                                            <a href="#">中风偏瘫</a>
+                                            <a href="#">静脉曲张</a>
+                                            <a href="#">心力衰竭</a>
+                                            <a href="#">动脉硬化</a>
+                                            <a href="#">低血压</a>
+                                            <a href="#">脑血栓</a>
+                                            <a href="#">心绞痛</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <a href="#">风湿跌打<b>></b></a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">高血压</a>
+                                            <a href="#">糖尿病</a>
+                                            <a href="#">冠心病</a>
+                                            <a href="#">高脂肪</a>
+                                            <a href="#">中风偏瘫</a>
+                                            <a href="#">静脉曲张</a>
+                                            <a href="#">心力衰竭</a>
+                                            <a href="#">动脉硬化</a>
+                                            <a href="#">低血压</a>
+                                            <a href="#">脑血栓</a>
+                                            <a href="#">心绞痛</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <a href="#">肠胃用药<b>></b></a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">高血压</a>
+                                            <a href="#">糖尿病</a>
+                                            <a href="#">冠心病</a>
+                                            <a href="#">高脂肪</a>
+                                            <a href="#">中风偏瘫</a>
+                                            <a href="#">静脉曲张</a>
+                                            <a href="#">心力衰竭</a>
+                                            <a href="#">动脉硬化</a>
+                                            <a href="#">低血压</a>
+                                            <a href="#">脑血栓</a>
+                                            <a href="#">心绞痛</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <a href="#">皮肤用药<b>></b></a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">高血压</a>
+                                            <a href="#">糖尿病</a>
+                                            <a href="#">冠心病</a>
+                                            <a href="#">高脂肪</a>
+                                            <a href="#">中风偏瘫</a>
+                                            <a href="#">静脉曲张</a>
+                                            <a href="#">心力衰竭</a>
+                                            <a href="#">动脉硬化</a>
+                                            <a href="#">低血压</a>
+                                            <a href="#">脑血栓</a>
+                                            <a href="#">心绞痛</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <a href="#">妇科用药<b>></b></a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">高血压</a>
+                                            <a href="#">糖尿病</a>
+                                            <a href="#">冠心病</a>
+                                            <a href="#">高脂肪</a>
+                                            <a href="#">中风偏瘫</a>
+                                            <a href="#">静脉曲张</a>
+                                            <a href="#">心力衰竭</a>
+                                            <a href="#">动脉硬化</a>
+                                            <a href="#">低血压</a>
+                                            <a href="#">脑血栓</a>
+                                            <a href="#">心绞痛</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <!--推荐品牌-->
+                                <div class="sort_detail_right">
+                                    <div class="rec_brank">
+                                        <div class="rb_tit">推荐品牌</div>
+                                        <div class="b_brank">
+                                            <a href="#"><img alt="同仁堂" src="{% static 'base/img/zx_2.jpg' %}"/></a>
+                                            <a href="#"><img alt="东阿阿胶" src="{% static 'base/img/zx_4.jpg' %}"/></a>
+                                            <a href="#"><img alt="汇仁" src="{% static 'base/img/zx_5.jpg' %}"/></a>
+                                            <a href="#"><img alt="白云山" src="{% static 'base/img/zx_1.jpg' %}"/></a>
+                                            <a href="#"><img alt="三九" src="{% static 'base/img/zx_7.jpg' %}"/></a>
+                                            <a href="#"><img alt="太极" src="{% static 'base/img/zx_8.jpg' %}"/></a>
+                                            <a href="#"><img alt="敬修堂" src="{% static 'base/img/zx_6.jpg' %}"/></a>
+                                            <a href="#"><img alt="陈李济" src="{% static 'base/img/zx_3.jpg' %}"/></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="rec_shop">
+                                        <div class="rs_tit">商品推荐</div>
+                                        <div class="b_shop">
+                                            <a href="#">博爱连锁药店</a>
+                                            <a href="#">乡亲大药房</a>
+                                            <a href="#">云开亚美</a>
+                                            <a href="#">先声再康大药房</a>
+                                            <a href="#">北京好药师大药房</a>
+                                            <a href="#">新华大药房</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sor_item_box">
+                            <a class="sib_abox" href="#"><i class="i-icon nor-2"></i>专科用药</a>
+                            <div class="item_box_list">
+                                <div class="item_box_bag"></div>
+
+                            </div>
+                        </li>
+                        <li class="sor_item_box">
+                            <a class="sib_abox" href="#"><i class="i-icon nor-3"></i>营养保健</a>
+                            <div class="item_box_list">
+                                <div class="item_box_bag"></div>
+                            </div>
+                        </li>
+                        <li class="sor_item_box">
+                            <a class="sib_abox" href="#"><i class="i-icon nor-4"></i>医疗器械</a>
+                            <div class="item_box_list">
+                                <div class="item_box_bag"></div>
+                            </div>
+                        </li>
+                        <li class="sor_item_box">
+                            <a class="sib_abox" href="#"><i class="i-icon nor-5"></i>成人用品</a>
+                            <div class="item_box_list">
+                                <div class="item_box_bag"></div>
+                            </div>
+                        </li>
+                        <li class="sor_item_box">
+                            <a class="sib_abox" href="#"><i class="i-icon nor-6"></i>中药养生</a>
+                            <div class="item_box_list">
+                                <div class="item_box_bag"></div>
+                            </div>
+                        </li>
+                        <li class="sor_item_box">
+                            <a class="sib_abox" href="#"><i class="i-icon nor-7"></i>美容护理</a>
+                            <div class="item_box_list">
+                                <div class="item_box_bag"></div>
+                            </div>
+                        </li>
+                        <li class="sor_item_box">
+                            <a class="sib_abox" href="#"><i class="i-icon nor-8"></i>隐形眼镜</a>
+                            <div class="item_box_list">
+                                <div class="item_box_bag"></div>
+                            </div>
+                        </li>
+                        <li class="sor_item_box">
+                            <a class="sib_abox" href="#"><i class="i-icon nor-9"></i>体检套餐</a>
+                            <div class="item_box_list">
+                                <div class="item_box_bag"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--首页 --主体导航-->
+        <div class="main_nav">
+            <a href="#">首页</a>
+            <a href="#">慢性病用药</a>
+            <a href="#">医疗器械</a>
+            <a href="#">幸福生活</a>
+            <a href="#">营养保健</a>
+            <a href="#">按病找药</a>
+            <a href="#">健康咨询</a>
+        </div>
+    </div>
+    </div>
+    <!--页头部分结束-->
+
+
+    <!--页面主体部分开始-->
+    <div id="main_wrap">
+        <!--轮播图  开始-->
+        <div class="swiper-container" id="topSwiper">
+            <div class="swiper-wrapper">
+                <img class="swiper-slide" src="{% static 'base/img/carousel-1.jpg' %}" alt="">
+                <img class="swiper-slide" src="{% static 'base/img/carousel-2.jpg' %}" alt="">
+                <img class="swiper-slide" src="{% static 'base/img/carousel-3.jpg' %}" alt="">
+                <img class="swiper-slide" src="{% static 'base/img/carousel-4.jpg' %}" alt="">
+                <img class="swiper-slide" src="{% static 'base/img/carousel-5.jpg' %}" alt="">
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!--首屏轮播图  侧边小块 ->>> 商家加盟-->
+        <div class="baner_extre">
+            <div class="baner_extre_bg"></div>
+            <a class="chant_join">
+                <i class="i-icon icon-chant"></i>
+                商家加盟
+            </a>
+            <!--药  正  药监-->
+            <a class="extre-feafere">
+                <p>
+                    <i class="i-icon icon-yao"></i>
+                    药品齐全
+                </p>
+                <p>
+                    <i class="i-icon icon-zheng"></i>
+                    正品保险
+                </p>
+                <p>
+                    <i class="i-icon icon-yj"></i>
+                    药监认证
+                </p>
+            </a>
+            <!--公告  小贴士-->
+            <div class="extra-info">
+                <ul class="ei-list">
+                    <li class="ei-item fir" id="ei-fir">八百方公告</li>
+                    <li class="ei-item lat">健康小贴士</li>
+                </ul>
+                <div class="ei-box ei-box1">
+                    <a href="#">八百方推出正品保险服务</a>
+                    <a href="#">八百方会员权益解释说明</a>
+                    <a href="#">喜获“最具影响力医药电商品牌”</a>
+                </div>
+                <div class="ei-box ei-box2">
+                    <a href="#">肾虚主要症状的五种表现方式</a>
+                    <a href="#">肾虚的食疗方法 补肾食疗粥方</a>
+                    <a href="#">女人肾虚的调理 饮食来治疗</a>
+                    <a href="#">女生肾虚的症状是什么 三种表现来说明</a>
+                    <a href="#">中药治疗肾虚须分肾阴虚和肾阳虚</a>
+                </div>
+            </div>
+        </div>
+        <!--轮播图  结束-->
+
+        <!--轮播图底部推荐商品 开始-->
+        <div class="main_sell_box">
+            <ul class="ms_list">
+                <li class="ms_list_item">
+                    <a href="#" class="pd_name" title="金戈10片装特价包邮">金戈10片装特价包邮</a>
+                    <p class="pd_desp">勃起功能障碍</p>
+                    <p class="pd_price"><em>￥210</em>
+                        <del>/380</del>
+                    </p>
+                    <a class="pd_img" href="../product_details/product_details.html" title="金戈10片装特价包邮">
+                        <img id="tz_pd" alt="金戈10片装特价包邮" src="{% static 'base/img/20160808154653_931.jpg' %}"/>
+                    </a>
+                </li>
+                <li class="ms_list_item">
+                    <a href="#" class="pd_name" title="草姬男极">草姬男极</a>
+                    <p class="pd_desp">拍下减20 ！壮阳补肾 ！</p>
+                    <p class="pd_price"><em>￥284</em>
+                        <del>/370</del>
+                    </p>
+                    <a class="pd_img" href="../product_details/product_details.html" title="草姬男极">
+                        <img id="tz_pd" alt="草姬男极" src="{% static 'base/img/20160906091633_854.jpg' %}"/>
+                    </a>
+                </li>
+                <li class="ms_list_item">
+                    <a href="#" class="pd_name" title="陈李济 舒筋健腰丸">陈李济 舒筋健腰丸</a>
+                    <p class="pd_desp">送风湿膏8贴</p>
+                    <p class="pd_price"><em>￥708</em>
+                        <del>/799</del>
+                    </p>
+                    <a class="pd_img" href="../product_details/product_details.html" title="陈李济 舒筋健腰丸">
+                        <img id="tz_pd" alt="陈李济 舒筋健腰丸" src="{% static 'base/img/20160728152149_248.jpg' %}"/>
+                    </a>
+                </li>
+                <li class="ms_list_item">
+                    <a href="#" class="pd_name" title="【润众】恩替卡韦分散片7片">【润众】恩替卡韦分散片7片</a>
+                    <p class="pd_desp">慢性乙型肝炎 肝病</p>
+                    <p class="pd_price"><em>￥148</em>
+                        <del>/179</del>
+                    </p>
+                    <a class="pd_img" href="../product_details/product_details.html" title="【润众】恩替卡韦分散片7片">
+                        <img id="tz_pd" alt="【润众】恩替卡韦分散片7片" src="{% static 'base/img/20160808155521_217.jpg' %}"/>
+                    </a>
+                </li>
+                <li class="ms_list_item">
+                    <a href="#" class="pd_name" title="解郁安神片">解郁安神片</a>
+                    <p class="pd_desp">解郁安 化瘀解毒</p>
+                    <p class="pd_price"><em>￥76</em>
+                        <del>/82.5</del>
+                    </p>
+                    <a class="pd_img" href="#" title="解郁安神片">
+                        <img alt="解郁安神片" src="{% static 'base/img/20160825135620_630.gif' %}"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--轮播图底部推荐商品 结束-->
+
+
+        <!--品牌商家推荐 开始-->
+        <div class="main_rec_box nav_itme_box">
+            <h2>品牌商家推荐</h2>
+            <div class="main_rec_content">
+                <div class="rec_main">
+                    <div class="rm_side">
+                        <a href="#">
+                            <img alt="商家优惠卷" src="{% static 'base/img/20160412155908_303.jpg' %}"/>
+                        </a>
+                    </div>
+                    <!--品牌商家-->
+                    <ul class="rm_list">
+                        <!--json  添加品牌商家-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--品牌商家推荐 结束-->
+
+        <!--每日优惠  开始-->
+        <div class="daily_rec_box nav_itme_box">
+            <h2>
+                <i class="i-icon dr_icon"></i>
+                每日优惠
+            </h2>
+            <div class="daily_rec_content">
+                <ul class="daily_rec_list">
+                    <!--json  添加商品-->
+                </ul>
+            </div>
+        </div>
+        <!--每日优惠  结束-->
+
+        <!--药品分类  开始-->
+        <div class=" main_cate_box nav_itme_box">
+            <div class="mc_header">
+                <h2>药品分类</h2>
+                <a class="ma_hed_right">全部商品分类</a>
+            </div>
+            <ul class="mc_list">
+                <li class="mc_item">
+                    <div class="ma_tag">家庭常备</div>
+                    <div class="mc_datail">
+                        <dl>
+                            <dt><a href="#">感冒清热</a></dt>
+                            <dd><a href="#">999感冒灵</a></dd>
+                            <dd><a href="#">板蓝根颗粒</a></dd>
+                            <dd><a href="#">小柴胡颗粒</a></dd>
+                            <dd><a href="#">夏桑菊颗粒</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">胃肠疾病</a></dt>
+                            <dd><a href="#">康复新液</a></dd>
+                            <dd><a href="#">耐信</a></dd>
+                            <dd><a href="#">噢美拉唑肠溶胶囊</a></dd>
+                            <dd><a href="#">吗丁啉</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">营养滋补</a></dt>
+                            <dd><a href="#">同仁堂六味地黄丸</a></dd>
+                            <dd><a href="#">五子衍宗丸</a></dd>
+                            <dd><a href="#">东阿阿胶</a></dd>
+                            <dd><a href="#">善存</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="mc_item">
+                    <div class="ma_tag">心脑血管</div>
+                    <div class="mc_datail">
+                        <dl>
+                            <dt><a href="#">高血压</a></dt>
+                            <dd><a href="#">布美他尼片</a></dd>
+                            <dd><a href="#">奥比新</a></dd>
+                            <dd><a href="#">倍博特</a></dd>
+                            <dd><a href="#">复代文</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">糖尿病</a></dt>
+                            <dd><a href="#">捷诺维</a></dd>
+                            <dd><a href="#">圣平</a></dd>
+                            <dd><a href="#">诺和龙</a></dd>
+                            <dd><a href="#">津力达颗粒</a></dd>
+                            <dd><a href="#">安立泽</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">冠心病</a></dt>
+                            <dd><a href="#">芪苈强心胶囊</a></dd>
+                            <dd><a href="#">络活喜</a></dd>
+                            <dd><a href="#">舒心糖浆</a></dd>
+                            <dd><a href="#">丹参保心茶</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="mc_item">
+                    <div class="ma_tag">神经系统</div>
+                    <div class="mc_datail">
+                        <dl>
+                            <dt><a href="#">抑郁</a></dt>
+                            <dd><a href="#">欣百达</a></dd>
+                            <dd><a href="#">盐酸帕泊西丁片</a></dd>
+                            <dd><a href="#">兰释</a></dd>
+                            <dd><a href="#">百忧解</a></dd>
+                            <dd><a href="#">左洛复</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">精神分裂</a></dt>
+                            <dd><a href="#">欧来宁</a></dd>
+                            <dd><a href="#">安津凡</a></dd>
+                            <dd><a href="#">利培酮口腔崩解片</a></dd>
+                            <dd><a href="#">奥派</a></dd>
+                            <dd><a href="#">卓夫</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">癫痫</a></dt>
+                            <dd><a href="#">妥泰</a></dd>
+                            <dd><a href="#">利必通</a></dd>
+                            <dd><a href="#">桂芍镇痫片</a></dd>
+                            <dd><a href="#">丙戊酸钠缓释片</a></dd>
+                            <dd><a href="#">开浦兰</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="mc_item">
+                    <div class="ma_tag">男性健康</div>
+                    <div class="mc_datail">
+                        <dl>
+                            <dt><a href="#">阳痿早泄</a></dt>
+                            <dd><a href="#">999感冒灵</a></dd>
+                            <dd><a href="#">板蓝根颗粒</a></dd>
+                            <dd><a href="#">小柴胡颗粒</a></dd>
+                            <dd><a href="#">夏桑菊颗粒</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">补肾壮阳</a></dt>
+                            <dd><a href="#">康复新液</a></dd>
+                            <dd><a href="#">耐信</a></dd>
+                            <dd><a href="#">噢美拉唑肠溶胶囊</a></dd>
+                            <dd><a href="#">吗丁啉</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">前列腺</a></dt>
+                            <dd><a href="#">同仁堂六味地黄丸</a></dd>
+                            <dd><a href="#">五子衍宗丸</a></dd>
+                            <dd><a href="#">东阿阿胶</a></dd>
+                            <dd><a href="#">善存</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="mc_item">
+                    <div class="ma_tag">肝病用药</div>
+                    <div class="mc_datail">
+                        <dl>
+                            <dt><a href="#">乙肝</a></dt>
+                            <dd><a href="#">贺普丁</a></dd>
+                            <dd><a href="#">维力青</a></dd>
+                            <dd><a href="#">健肝灵胶囊</a></dd>
+                            <dd><a href="#">葡醛内酯片</a></dd>
+                            <dd><a href="#">丁贺</a></dd>
+                            <dd><a href="#">名正</a></dd>
+                            <dd><a href="#">博路定</a></dd>
+                            <dd><a href="#">护肝宁片</a></dd>
+                            <dd><a href="#">润众</a></dd>
+                            <dd><a href="#">优贺丁</a></dd>
+                            <dd><a href="#">素比伏</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">保肝护肝</a></dt>
+                            <dd><a href="#">瑞甘</a></dd>
+                            <dd><a href="#">易善复</a></dd>
+                            <dd><a href="#">复方鳖甲软肝片</a></dd>
+                            <dd><a href="#">鳖甲煎丸</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="mc_item">
+                    <div class="ma_tag">新特药品</div>
+                    <div class="mc_datail">
+                        <dl>
+                            <dt><a href="#">肿瘤用药</a></dt>
+                            <dd><a href="#">易瑞沙</a></dd>
+                            <dd><a href="#">华蟾素</a></dd>
+                            <dd><a href="#">贞芝扶正胶囊</a></dd>
+                            <dd><a href="#">紫龙金片</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">银屑病</a></dt>
+                            <dd><a href="#">达力士</a></dd>
+                            <dd><a href="#">卡泊三醇软片</a></dd>
+                            <dd><a href="#">适今可</a></dd>
+                            <dd><a href="#">苦丹丸</a></dd>
+                            <dd><a href="#">消银片</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">风湿骨病</a></dt>
+                            <dd><a href="#">复方雪莲胶囊</a></dd>
+                            <dd><a href="#">舒筋健腰丸</a></dd>
+                            <dd><a href="#">腰痹通胶囊</a></dd>
+                        </dl>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--药品分类 结束-->
+
+        <!--楼层模块  开始-->
+        <!--1.中西成药  开始-->
+        <div class="min_floor_box nav_itme_box">
+            <!--头部-->
+            <div class="floor_header">
+                <h2>
+                    <i class="i-icon floor1"></i>
+                    中西成药
+                </h2>
+                <div class="floor_rec_list">
+                    <a href="#">万通 消糜栓</a>
+                    <a href="#">善存 多维元素片</a>
+                    <a href="#">雅塑</a>
+                    <a href="#">乐天补肺丸 3盒装</a>
+                    <a href="#">同仁堂 五子衍宗丸</a>
+                    <a href="#">妇科千金片</a>
+                    <a href="#">固本延龄丸</a>
+                    <a href="#">鸿茅药酒 500ml</a>
+                </div>
+            </div>
+            <!--商品-->
+            <div class="floor_body">
+                <div class="fb_lelt">
+                    <div class="fb_lelt_img">
+                        <a href="#"><img src="{% static 'base/img/20160829171111_909.jpg' %}"/></a>
+                    </div>
+                    <div class="fb_lelt_rec">
+                        <a href="#">朗迪 碳酸钙D3颗粒</a>
+                        <a href="#">参苓白术散</a>
+                        <a href="#">碧生源减肥茶</a>
+                        <a href="#">莱利 奥利斯他片 24片</a>
+                        <a href="#">便乃通茶 3盒优惠装</a>
+                        <a href="#">排毒养颜胶囊 90粒包邮</a>
+                        <a href="#">福牌阿胶 250g铁盒</a>
+                        <a href="#">金喉健喷雾剂</a>
+                    </div>
+                </div>
+
+                <div class="fb_content">
+                    <img src="{% static 'base/img/20160726175122_23.jpg' %}"/>
+                </div>
+
+                <div class="fb_right">
+                    <ul class="fb_ul">
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160428153800_504.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160817180457_22.png' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160428154024_676.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160428154024_676.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160808155521_217.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160726180302_811.jpg' %}" alt=""/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--1.中西成药  结束-->
+
+        <!--2.医疗器械  开始-->
+        <div class="min_floor_box nav_itme_box">
+            <!--头部-->
+            <div class="floor_header">
+                <h2>
+                    <i class="i-icon floor2"></i>
+                    医疗器械
+                </h2>
+                <div class="floor_rec_list">
+                    <a href="#">万通 消糜栓</a>
+                    <a href="#">善存 多维元素片</a>
+                    <a href="#">雅塑</a>
+                    <a href="#">乐天补肺丸 3盒装</a>
+                    <a href="#">同仁堂 五子衍宗丸</a>
+                    <a href="#">妇科千金片</a>
+                    <a href="#">固本延龄丸</a>
+                    <a href="#">鸿茅药酒 500ml</a>
+                </div>
+            </div>
+            <!--商品-->
+            <div class="floor_body">
+                <div class="fb_lelt">
+                    <div class="fb_lelt_img">
+                        <a href="#"><img src="{% static 'base/img/20160907142741_134.gif' %}"/></a>
+                    </div>
+                    <div class="fb_lelt_rec">
+                        <a href="#">中国灸 前列腺灸</a>
+                        <a href="#">消痛膏贴</a>
+                        <a href="#">蓝科肤宁</a>
+                        <a href="#">PM2.5浮尘口罩</a>
+                        <a href="#">罗氏血糖仪 卓越新</a>
+                        <a href="#">颈椎按摩枕</a>
+                        <a href="#">好视力眼贴</a>
+                        <a href="#">三诺血糖仪</a>
+                    </div>
+                </div>
+
+                <div class="fb_content">
+                    <img src="{% static 'base/img/20160907143141_988.jpg' %}"/>
+                </div>
+
+                <div class="fb_right">
+                    <ul class="fb_ul">
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160316162441_447.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160316162909_513.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160704151617_771.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160914105844_830.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160316163526_18.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160201183209_735.jpg' %}" alt=""/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--2.医疗器械  结束-->
+
+        <!--3.营养保健  开始-->
+        <div class="min_floor_box nav_itme_box">
+            <!--头部-->
+            <div class="floor_header">
+                <h2>
+                    <i class="i-icon floor3"></i>
+                    营养保健
+                </h2>
+                <div class="floor_rec_list">
+                    <a href="#">万通 消糜栓</a>
+                    <a href="#">善存 多维元素片</a>
+                    <a href="#">雅塑</a>
+                    <a href="#">乐天补肺丸 3盒装</a>
+                    <a href="#">同仁堂 五子衍宗丸</a>
+                    <a href="#">妇科千金片</a>
+                    <a href="#">固本延龄丸</a>
+                    <a href="#">鸿茅药酒 500ml</a>
+                </div>
+            </div>
+            <!--商品-->
+            <div class="floor_body">
+                <div class="fb_lelt">
+                    <div class="fb_lelt_img">
+                        <a href="#"><img src="{% static 'base/img/20160824174347_292.jpg' %}"/></a>
+                    </div>
+                    <div class="fb_lelt_rec">
+                        <a href="#">汤臣派件蛋白粉</a>
+                        <a href="#">汤臣配件维生素B</a>
+                        <a href="#">自然饮</a>
+                        <a href="#">三十六位明目贴</a>
+                        <a href="#">拉肚里拉压片</a>
+                        <a href="#">金斯利安</a>
+                        <a href="#">惠氏善存</a>
+                        <a href="#">汤臣派件骨胶原</a>
+                    </div>
+                </div>
+
+                <div class="fb_content">
+                    <img src="{% static 'base/img/20160812090219_593.jpg' %}"/>
+                </div>
+
+                <div class="fb_right">
+                    <ul class="fb_ul">
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160614174644_928.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160316155314_174.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160704152357_544.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160614175317_817.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160415163243_78.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160614180315_506.jpg' %}" alt=""/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--3.营养保健  结束-->
+
+        <!--4.成人用品  开始-->
+        <div class="min_floor_box nav_itme_box">
+            <!--头部-->
+            <div class="floor_header">
+                <h2>
+                    <i class="i-icon floor4"></i>
+                    成人用品
+                </h2>
+                <div class="floor_rec_list">
+                    <a href="#">万通 消糜栓</a>
+                    <a href="#">善存 多维元素片</a>
+                    <a href="#">雅塑</a>
+                    <a href="#">乐天补肺丸 3盒装</a>
+                    <a href="#">同仁堂 五子衍宗丸</a>
+                    <a href="#">妇科千金片</a>
+                    <a href="#">固本延龄丸</a>
+                    <a href="#">鸿茅药酒 500ml</a>
+                </div>
+            </div>
+            <!--商品-->
+            <div class="floor_body">
+                <div class="fb_lelt">
+                    <div class="fb_lelt_img">
+                        <a href="#"><img src="{% static 'base/img/20160408093659_677.jpg' %}"/></a>
+                    </div>
+                    <div class="fb_lelt_rec">
+                        <a href="#">包皮阻复环</a>
+                        <a href="#">杜伊特演示软膏</a>
+                        <a href="#">印度神油</a>
+                        <a href="#">名流避孕套</a>
+                        <a href="#">豪仕造用试纸</a>
+                        <a href="#">延时喷雾</a>
+                        <a href="#">真空助勃器</a>
+                        <a href="#">杜蕾斯润滑油</a>
+                    </div>
+                </div>
+
+                <div class="fb_content">
+                    <img src="{% static 'base/img/20160323185548_456.jpg' %}"/>
+                </div>
+
+                <div class="fb_right">
+                    <ul class="fb_ul">
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160422153118_888.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160704152140_245.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160422153729_644.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160704152357_544.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160422154432_618.jpg' %}" alt=""/></a>
+                        </li>
+                        <li class="fb_li">
+                            <a class="pd_name">同仁堂 六味地黄丸 4盒</a>
+                            <p class="pd_desp">滋阴补肾 千年古方 包邮</p>
+                            <p class="pd_price"><em>￥51.6</em>
+                                <del>/￥60</del>
+                            </p>
+                            <a href="#" class="pd_img"><img src="{% static 'base/img/20160422154641_929.jpg' %}" alt=""/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--4.成人用品  结束-->
+        <!--楼层模块  结束-->
+
+        <!--热门商品   友情链接  开始-->
+        <div class="vflink">
+            <ul class="hd">
+                <li class="cur">热门商品</li>
+                <li class="">热门专题</li>
+                <li class="">热门药房推荐</li>
+                <li class="">品牌推荐</li>
+                <li class="">热门城市</li>
+                <li class="">协会机构</li>
+                <li class="">友情链接</li>
+            </ul>
+            <ul class="ft" style="display: block;">
+                <li><a href="" title="易瑞沙">易瑞沙</a></li>
+                <li><a href="" title="益安宁丸">益安宁丸</a></li>
+                <li><a href="" title="优甲乐">优甲乐</a></li>
+                <li><a href="" title="他克莫司胶囊">他克莫司胶囊</a></li>
+                <li><a href="" title="参一胶囊">参一胶囊</a></li>
+                <li><a href="" target="_blank" title="片仔癀">片仔癀</a></li>
+                <li><a href="" title="昆仙胶囊">昆仙胶囊</a></li>
+                <li><a href="" title="碳酸钙D3片">碳酸钙D3片</a></li>
+                <li><a href="" title="黄葵胶囊">黄葵胶囊</a></li>
+                <li><a href="" title="伏立康唑胶囊">伏立康唑胶囊</a></li>
+                <li><a href="#" title="养胃舒颗粒">养胃舒颗粒</a></li>
+                <li><a href="#" target="_blank" title="黄芪生脉饮">黄芪生脉饮</a></li>
+                <li><a href="#" title="麒麟丸">麒麟丸</a></li>
+                <li><a href="#" title="安宫牛黄丸">安宫牛黄丸</a></li>
+                <li><a href="#" title="龙血竭片">龙血竭片</a></li>
+                <li><a href="#" title="速效救心丸">速效救心丸</a></li>
+                <li><a href="#" title="贺普丁">贺普丁</a></li>
+                <li><a href="#" title="华蟾素胶囊">华蟾素胶囊</a></li>
+                <li><a href="#" title="复方玄驹胶囊">复方玄驹胶囊</a></li>
+                <li><a href="#" title="慢严舒柠">慢严舒柠</a></li>
+                <li><a href="#" title="甲氨蝶呤片">甲氨蝶呤片</a></li>
+                <li><a href="#" title="妇科千金片">妇科千金片</a></li>
+                <li><a href="#" title="米诺地尔酊">米诺地尔酊</a></li>
+                <li><a href="#" title="妇炎洁">妇炎洁</a></li>
+                <li><a href="#" title="丹鹿通督片">丹鹿通督片</a></li>
+                <li><a href="#" title="曹清华薏辛除湿止痛胶囊">曹清华薏辛除湿止痛胶囊</a></li>
+                <li><a href="#" title="左归丸">左归丸</a></li>
+                <li><a href="#" title="乌鸡白凤丸">乌鸡白凤丸</a></li>
+                <li><a href="#" title="美沙拉秦缓释片">美沙拉秦缓释片</a></li>
+                <li><a href="#" title="润众">润众</a></li>
+                <li><a href="#" title="抗病毒口服液">抗病毒口服液</a></li>
+                <li><a href="#" title="三九皮炎平">三九皮炎平</a></li>
+                <li><a href="#" title="三九胃泰">三九胃泰</a></li>
+                <li><a href="#" title="小儿肺热咳喘口服液">小儿肺热咳喘口服液</a></li>
+                <li><a href="#" title="西乐欣">西乐欣</a></li>
+                <li><a href="v" title="仙灵骨葆">仙灵骨葆</a></li>
+                <li><a href="#" title="特普宁">特普宁</a></li>
+                <li><a href="#" title="金水宝胶囊">金水宝胶囊</a></li>
+                <li><a href="#" title="聚磺苯乙烯钠散">聚磺苯乙烯钠散 </a></li>
+                <li><a href="#" title="龟龄集">龟龄集 </a></li>
+                <li><a href="#" title="聚甲酚磺醛阴道栓">聚甲酚磺醛阴道栓 </a></li>
+                <li><a href="#" title="芪苈强心胶囊">芪苈强心胶囊</a></li>
+                <li><a href="#" title="达力士">达力士 </a></li>
+                <li><a href="#" title="非那雄胺片 ">非那雄胺片</a></li>
+                <li><a href="#" title="氟康唑胶囊">氟康唑胶囊</a></li>
+                <li><a href="#" title="恩必普">恩必普</a></li>
+                <li><a href="#" title="复可托">复可托 </a></li>
+                <li><a href="#" title="立普妥">立普妥 </a></li>
+                <li><a href="#" title="代丁">代丁 </a></li>
+                <li><a href="#" title="爱若华">爱若华 </a></li>
+                <li><a href="#" title="开浦兰">开浦兰 </a></li>
+                <li><a href="#" title="倍博特">倍博特 </a></li>
+                <li><a href="#" title="卫喜康">卫喜康 </a></li>
+                <li><a href="#" title="甲巯咪唑片">甲巯咪唑片</a></li>
+                <li><a href="#" title="玄宁">玄宁 </a></li>
+                <li><a href="#" title="保列治">保列治 </a></li>
+                <li><a href="#" title="甲磺酸溴隐亭片 ">甲磺酸溴隐亭片 </a></li>
+                <li><a href="#" title="卡泊三醇软膏">卡泊三醇软膏</a></li>
+                <li><a href="#" title="素比伏">素比伏 </a></li>
+                <li><a href="#" title="拜唐苹">拜唐苹 </a></li>
+                <li><a href="#" title="舒筋健腰丸">舒筋健腰丸 </a></li>
+            </ul>
+            <ul class="ft" style="display: none;">
+                <li><a href="#" title="玄宁">玄宁 </a></li>
+                <li><a href="#" title="保列治">保列治 </a></li>
+                <li><a href="#" title="甲磺酸溴隐亭片 ">甲磺酸溴隐亭片 </a></li>
+                <li><a href="#" title="卡泊三醇软膏">卡泊三醇软膏</a></li>
+                <li><a href="#" title="素比伏">素比伏 </a></li>
+                <li><a href="#" title="拜唐苹">拜唐苹 </a></li>
+                <li><a href="#" title="舒筋健腰丸">舒筋健腰丸 </a></li>
+            </ul>
+            <ul class="ft" style="display: none;">
+                <li><a href="#" title="芪苈强心胶囊">芪苈强心胶囊</a></li>
+                <li><a href="#" title="达力士">达力士 </a></li>
+                <li><a href="#" title="非那雄胺片 ">非那雄胺片</a></li>
+                <li><a href="#" title="氟康唑胶囊">氟康唑胶囊</a></li>
+                <li><a href="#" title="恩必普">恩必普</a></li>
+                <li><a href="#" title="复可托">复可托 </a></li>
+                <li><a href="#" title="立普妥">立普妥 </a></li>
+                <li><a href="#" title="代丁">代丁 </a></li>
+            </ul>
+            <ul class="ft" style="display: none;">
+                <li><a href="#" title="金水宝胶囊">金水宝胶囊</a></li>
+                <li><a href="#" title="聚磺苯乙烯钠散">聚磺苯乙烯钠散 </a></li>
+                <li><a href="#" title="龟龄集">龟龄集 </a></li>
+                <li><a href="#" title="聚甲酚磺醛阴道栓">聚甲酚磺醛阴道栓 </a></li>
+                <li><a href="#" title="芪苈强心胶囊">芪苈强心胶囊</a></li>
+                <li><a href="#" title="达力士">达力士 </a></li>
+                <li><a href="#" title="非那雄胺片 ">非那雄胺片</a></li>
+                <li><a href="#" title="氟康唑胶囊">氟康唑胶囊</a></li>
+                <li><a href="#" title="恩必普">恩必普</a></li>
+                <li><a href="#" title="复可托">复可托 </a></li>
+                <li><a href="#" title="立普妥">立普妥 </a></li>
+                <li><a href="#" title="代丁">代丁 </a></li>
+                <li><a href="#" title="爱若华">爱若华 </a></li>
+            </ul>
+            <ul class="ft" style="display: none;">
+                <li><a href="#" target="_blank" title="黄芪生脉饮">黄芪生脉饮</a></li>
+                <li><a href="#" title="麒麟丸">麒麟丸</a></li>
+                <li><a href="#" title="安宫牛黄丸">安宫牛黄丸</a></li>
+                <li><a href="#" title="龙血竭片">龙血竭片</a></li>
+                <li><a href="#" title="速效救心丸">速效救心丸</a></li>
+                <li><a href="#" title="贺普丁">贺普丁</a></li>
+                <li><a href="#" title="华蟾素胶囊">华蟾素胶囊</a></li>
+                <li><a href="#" title="复方玄驹胶囊">复方玄驹胶囊</a></li>
+                <li><a href="#" title="慢严舒柠">慢严舒柠</a></li>
+                <li><a href="#" title="甲氨蝶呤片">甲氨蝶呤片</a></li>
+                <li><a href="#" title="妇科千金片">妇科千金片</a></li>
+                <li><a href="#" title="米诺地尔酊">米诺地尔酊</a></li>
+                <li><a href="#" title="妇炎洁">妇炎洁</a></li>
+                <li><a href="#" title="丹鹿通督片">丹鹿通督片</a></li>
+                <li><a href="#" title="曹清华薏辛除湿止痛胶囊">曹清华薏辛除湿止痛胶囊</a></li>
+                <li><a href="#" title="左归丸">左归丸</a></li>
+                <li><a href="#" title="乌鸡白凤丸">乌鸡白凤丸</a></li>
+                <li><a href="#" title="美沙拉秦缓释片">美沙拉秦缓释片</a></li>
+                <li><a href="#" title="润众">润众</a></li>
+            </ul>
+            <ul class="ft" style="display: none;">
+                <li><a href="" title="碳酸钙D3片">碳酸钙D3片</a></li>
+                <li><a href="" title="黄葵胶囊">黄葵胶囊</a></li>
+                <li><a href="" title="伏立康唑胶囊">伏立康唑胶囊</a></li>
+                <li><a href="#" title="养胃舒颗粒">养胃舒颗粒</a></li>
+                <li><a href="#" target="_blank" title="黄芪生脉饮">黄芪生脉饮</a></li>
+                <li><a href="#" title="麒麟丸">麒麟丸</a></li>
+                <li><a href="#" title="安宫牛黄丸">安宫牛黄丸</a></li>
+                <li><a href="#" title="龙血竭片">龙血竭片</a></li>
+                <li><a href="#" title="速效救心丸">速效救心丸</a></li>
+                <li><a href="#" title="贺普丁">贺普丁</a></li>
+            </ul>
+            <ul class="ft" style="display: none;">
+                <li><a href="#" title="甲氨蝶呤片">甲氨蝶呤片</a></li>
+                <li><a href="#" title="妇科千金片">妇科千金片</a></li>
+                <li><a href="#" title="米诺地尔酊">米诺地尔酊</a></li>
+                <li><a href="#" title="妇炎洁">妇炎洁</a></li>
+                <li><a href="#" title="丹鹿通督片">丹鹿通督片</a></li>
+                <li><a href="#" title="曹清华薏辛除湿止痛胶囊">曹清华薏辛除湿止痛胶囊</a></li>
+                <li><a href="#" title="左归丸">左归丸</a></li>
+                <li><a href="#" title="乌鸡白凤丸">乌鸡白凤丸</a></li>
+                <li><a href="#" title="美沙拉秦缓释片">美沙拉秦缓释片</a></li>
+                <li><a href="#" title="润众">润众</a></li>
+                <li><a href="#" title="抗病毒口服液">抗病毒口服液</a></li>
+                <li><a href="#" title="三九皮炎平">三九皮炎平</a></li>
+                <li><a href="#" title="三九胃泰">三九胃泰</a></li>
+                <li><a href="#" title="小儿肺热咳喘口服液">小儿肺热咳喘口服液</a></li>
+                <li><a href="#" title="西乐欣">西乐欣</a></li>
+                <li><a href="v" title="仙灵骨葆">仙灵骨葆</a></li>
+                <li><a href="#" title="特普宁">特普宁</a></li>
+                <li><a href="#" title="金水宝胶囊">金水宝胶囊</a></li>
+                <li><a href="#" title="聚磺苯乙烯钠散">聚磺苯乙烯钠散 </a></li>
+                <li><a href="#" title="龟龄集">龟龄集 </a></li>
+                <li><a href="#" title="聚甲酚磺醛阴道栓">聚甲酚磺醛阴道栓 </a></li>
+                <li><a href="#" title="芪苈强心胶囊">芪苈强心胶囊</a></li>
+                <li><a href="#" title="达力士">达力士 </a></li>
+                <li><a href="#" title="非那雄胺片 ">非那雄胺片</a></li>
+            </ul>
+        </div>
+        <!--热门商品   友情链接  结束-->
+
+        <!--侧栏楼梯导航--开始-->
+        <div class="main_content_nav" id="main_content_nav">
+            <a class="main_nav_a curs" href="#">品牌商家</a>
+            <a class="main_nav_a" href="#">每日优惠</a>
+            <a class="main_nav_a" href="#">药品分类</a>
+            <a class="main_nav_a" href="#">中西成药</a>
+            <a class="main_nav_a" href="#">医疗器械</a>
+            <a class="main_nav_a" href="#">营养保健</a>
+            <a class="main_nav_a" href="#">成人用品</a>
+
+        </div>
+        <!--侧栏楼梯导航--结束-->
+
+
+    </div>
+    <!--页面主体部分结束-->
+{% endblock %}
+		
+{% block fixed_search_box %}
+		<!--搜索框吸顶-->
+		<div class="fixed_search_box fixed_search_show" >
+			<div class="fixed_search_content">
+				<div class="search_contain">
+					<form class="srarch_form">
+						<input class="search_box" type="text" placeholder="药品名称/功效/症状" value="" />
+						<input class="search_btn" type="submit" value="搜索" />
+					</form>
+					<div class="autocomplete"></div>
+				</div>
+				<div class="fixed_logo">
+					<img src="{% static 'base/img/800fang-logo2.png' %}" />
+				</div>
+			</div>
+		</div>
+{% endblock %}
+

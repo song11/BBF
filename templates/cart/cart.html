@@ -1,0 +1,79 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block title %}
+    购物车
+{% endblock %}
+{% block extcss %}
+    <link rel="stylesheet" href="{% static 'cart/css/carts.css' %}"/>
+{% endblock %}
+
+{% block extjs %}
+    <script src="{% static 'cart/js/cart.js' %}"></script>
+{% endblock %}
+{% block content %}
+    <!--页面主体  开始-->
+		<div class="main_sh_wp" id="main_sh_wp">
+			<div class="sh_wp_content">
+				<div class="swc_top">
+					<span>您当前的位置：</span>
+					<a href="../index/index.html">首页</a>
+					> 购物车
+				</div>
+				<!--购物车  无商品    开始-->
+				<div class="no_shp" style="display: none;">
+					<div class="cont">
+						<div class="lshp"></div>
+						<div class="rshp">
+							<span class="tit">您的购物车暂时是空的，您可以：</span>
+							<span>您还没有登录，可能导致购物车为空，请 <a href=""> 马上登录</a></span>
+							<span>去<a href=""> 首页 </a> 随便逛逛</span>
+						</div>
+					</div>
+
+				</div>
+				<!--购物车  无商品    结束-->
+
+				<!--购物车  添加商品    开始 -->
+				<div class="shop_cart" id="shop_cart" style="display: block;">
+					<!--购物导向图   开始-->
+					<div class="m_pro m_cart">
+			        	<span class="p1"></span>
+			            <span class="p2"></span>
+			            <span class="p3"></span>
+			        </div>
+					<!--购物导向图   开始-->
+
+					<!--列表   开始-->
+					<table width="1190" border="0" cellspacing="0" cellpadding="0" align="center" class="cart_t">
+			          <tr>
+			          	<th style="text-align:left;"  width="20"><input name="checkAll"  type="checkbox" checked="checked" /></th>
+			            <th width="375" class="pad">商品</th>
+			            <th width="180">会员价(元)</th>
+			            <th width="163">优惠</th>
+			            <th width="88">数量</th>
+			            <th width="88">小计</th>
+			            <th width="110">操作</th>
+			          </tr>
+
+			       	</table>
+					<!--列表   结束-->
+
+					<!--加入的购物列表    开始 -->
+					<div class= "shop_content"></div>
+					<!--加入的购物列表    结束 -->
+
+					<!--结算    star-->
+					<div class="b_total">
+						<div class="total_choose">
+							<input type="checkbox" name="checkAll" checked="checked" /><label>全选</label><a id="clearCarts" href="#">删除</a>
+						</div>
+						<p class="total">商品原总价（不含运费）：<span class="t_price" id="allTotal">￥<span class="amount" >294.00</span></span></p>
+						<input type="submit" id="buy_btn" class="buy_btn" value="去结算"/>
+					</div>
+					<!--结算    end-->
+				</div>
+				<!--购物车  添加商品    结束 -->
+			</div>
+		</div>
+		<!--页面主体  结束-->
+{% endblock %}

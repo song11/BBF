@@ -1,0 +1,343 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block title %}
+    商品详情
+{% endblock %}
+{% block extcss %}
+    <link rel="stylesheet" href="{% static 'product_detail/css/product_details.css' %}"/>
+{% endblock %}
+
+{% block extjs %}
+    <script src="{% static 'product_detail/js/product_details.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <!--主体部分  开始-->
+    <div class="main_pd_wrap">
+        <!--当前位置-->
+        <div class="navAdd">
+            您的当前位置：
+            <a href="">八百方网上药店</a>
+            >
+            <a href="">营养保健></a>
+            <a href="">保健食品></a>
+            <a href="">其他保健食品></a>
+            草姬 Men's Infinity男極 壮阳补肾 持久延时
+        </div>
+
+        <!--商家头部部分开始-->
+        <div class="busi_heard">
+            <div class="busi_top">
+                <div class="busi_logo">
+                    <a class="s_logo" href=""><img src="{% static 'base/img/20160719154655_429.jpg' %}"
+                                                   style="width: 180px; height: 48px; padding-top: 4.5px;"
+                                                   alt="商家LOGO"/></a>
+                    <a class="s_name" id="goodsSpName" href="">九龙 ·<span> 香港草姬</span></a>
+                </div>
+
+                <div class="promise">
+                    <span class="icon_bg  icon_bg1"></span>
+                    <span class="fontNum">八百方承诺：严格审查   100%正规药房</span>
+                </div>
+            </div>
+
+            <div class="six_pomi">
+                <ul>
+                    <li class="z"></li>
+                    <li class="f"></li>
+                    <li class="t"></li>
+                    <li class="p"></li>
+                    <li class="y"></li>
+                    <li class="x"></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--商品主体部分-->
+        <div class="main">
+            <!--左侧-->
+            <div class="main_left">
+                <!--放大镜-->
+                <div class="jqzoom">
+                    <img id="smallImg" class="smallImg" src="{% static 'base/img/20160720143935_46.jpg' %}" alt=""/>
+                    <div id="smallArea" class="smallArea"
+                         style="display: none; width: 100px; height: 100px;background: rgba(200, 255, 200, 0.3); position: absolute; left: 50px; top: 20px; "></div>
+                </div>
+                <div id="bigArea" class="bigArea"
+                     style="display: none; overflow: hidden; width: 310px; height:310px; background: rgba(100,200,100, 0.3); position: absolute; left: 350px; top: 0px;">
+                    <img id="bigImg" class="bigImg" src="{% static 'base/img/20160720143935_46.jpg' %}"/>
+                </div>
+                <!--小图列表-->
+                <div class="pic_mim_ni">
+                    <ul class="mini_list">
+                        <li><img src="{% static 'base/img/20160720143935_46.jpg' %}"/></li>
+                        <li><img src="{% static 'base/img/20160720143940_956.jpg' %}"/></li>
+                        <li><img src="{% static 'base/img/20160720143944_578.jpg' %}"/></li>
+                        <li><img src="{% static 'base/img/20160720143950_106.jpg' %}"/></li>
+                        <li><img src="{% static 'base/img/20160720143955_506.jpg' %}"/></li>
+                    </ul>
+                </div>
+                <!--扫二维码-->
+                <div class="clear">
+                    <div>
+                        <img src="{% static 'base/img/qrcodePrompt.jpg' %}" style="display: inline; padding-left: 15px;"/>
+                        <img src="{% static 'base/img/erweima.jpg' %}" style="display: inline;" title="打开手机浏览器扫一扫，手机购买更优惠！"/>
+                    </div>
+                </div>
+                <!--分享-->
+                <div class="share">
+                    <div class="share_left">
+                        <a style="display: block; width: 147px; height: 21px; font-size: 12px;" href="#">
+                            <div class="bsPromo"></div>
+                            <div class="button"
+                                 style="height: 21px; width: 147px; background: transparent url({% static 'base/img/box-shareTo-zh.gif' %}) no-repeat ; text-align: center;"></div>
+                        </a>
+                    </div>
+                    <!--收藏-->
+                    <div class="collect">
+                        <a href="">收藏该商品</a>
+                    </div>
+                </div>
+                <button id="clearCart">清除</button>
+            </div>
+
+            <!--中间   开始-->
+            <div class="main_mid">
+                <!--标题-->
+                <span title="跨境" class="kuajin">跨境</span>
+                <h1 class="goodsName">草姬 Men's Infinity男極 壮阳补肾 持久延时</h1>
+
+                <!--商品详情  开始-->
+                <ul class="pro_msg">
+                    <!--正品保证开始-->
+                    <div class="zbzhg">
+                        <a class="zhengpin_brand" href="">
+                            <span class="firstSpan"></span>
+                            <span class="lastSpan">正品保证</span>
+                        </a>
+                        <div class="zhonghuabaoxian"></div>
+                    </div>
+
+                    <!--登录注册-->
+                    <div class="delZhc">
+                        <p><a href="">登录</a>|<a href="">注册</a></p>
+                        <p>八百方给您VIP的价格</p>
+                    </div>
+
+                    <li>
+                        <span class="fontGrey2">八百方价：</span>
+                        <span class="price_shang "><em>￥</em><span id="pic2">294.00</span></span>
+                    </li>
+                    <li>
+                        <span class="fontGrey2 info_title">市<em></em>场<em></em>价：</span>
+                        <span class="price_shi"><em>￥</em><span id="pic1">370.00</span> </span>
+                    </li>
+                    <li>
+                        <span class="fontGrey2">商品编号：</span>
+                        <span class="fontGrey1 fontNum" id="goodsId">1253048</span>
+                    </li>
+
+                    <li class="clearfix" style="height: 28px;">
+                        <span class="info_title fontGrey2">促销信息：</span>
+                        <div class="sale_msg2">
+                            <p><span class="fontBlue"><em>满立减</em>本商家全场满289减20，满499减50，可与优惠券叠加使用！</span></p>
+                        </div>
+                    </li>
+
+                    <li class="clearfix" style="margin-top:5px; height: 38px;">
+                        <span class="info_title fontGrey2">可选规格：</span>
+                        <div class="b_select">
+                            <div class="item_nor" title="90粒/盒  ￥294.00">
+                                <span>90粒/盒</span>
+                                <b style="display: inline;"></b>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="clearfix kuaidi">
+                        <span class="fontGrey2 peis">配<em></em>送：<input type="hidden" id="fdf_set"
+                                                                        value="30.0"/> </span>
+                        <span class="zhi">至</span>
+                        <span class="sendTo fontGrey1">
+								<a class="fontBlue" id="area_china">
+									<div id="province_city">
+										<strong>深圳</strong>
+										<strong class="xiala"></strong>
+									</div>
+								</a>
+								<span class="zhi" id="minFeeComp">最低快递价： 圆通速递<span
+                                        class="set_devfee"> 免运费 </span></span>
+								<a class="chakan nationwide" id="lookshippinginfo" onclick="showshipinginfo()">
+	                            	<strong>查看快递信息</strong><strong class='xiala'></strong>
+	                            </a>
+							</span>
+                    </li>
+
+                    <li class="sale_num">
+                        <span class="info_title fontGrey2">我<em></em>要<em></em>买：</span>
+                        <div class="num_text">
+                            <input type="text" id="quantity" name="quantity" class="num_sort" value="1" size="5"
+                                   maxlength="5"/>
+                            <div class="num">
+                                <span class="icon_add"><a href=""></a></span>
+                                <span class="icon_rec"><a href=""></a></span>
+                            </div>
+                        </div>
+                        <span class="fontNum">&nbsp;&nbsp;&nbsp;件&nbsp;&nbsp;&nbsp;&nbsp;<span>库存<span
+                                id="STORAGE"> 99</span>件</span></span>
+                        <!--立即购买-->
+                        <div class="btn_otc">
+                            <input type="button" name="立即购买" class="buy" id="btn_buy"/>
+                            <input type="button" name="加入购物车" class="add_cart"/>
+                        </div>
+                    </li>
+
+                    <li class="net_pay clearfix">
+                        <span>支付方式：</span>
+                        <span id="intelPay" class="fontGrey1" style="margin-right: 8px;"><a><strong>网银支付</strong><strong
+                                class="xiala"></strong></a></span>
+                        <span class="space">支付宝</span>
+                        <span class="space">财付通</span>
+                        <span class="space">银联支付</span>
+                        <!--银行弹出开始-->
+                        <div class="netPay_arlt" style="display: none;">
+                            <ul>
+                                <li>中国工商银行</li>
+                                <li>中国建设银行</li>
+                                <li>中国农业银行</li>
+                                <li>招商银行</li>
+                                <li>中国银行</li>
+                                <li>交通银行</li>
+                                <li>浦发银行</li>
+                                <li>深圳发展银行</li>
+                                <li>北京银行</li>
+                                <li>中国光大银行</li>
+                                <li>中国民生银行</li>
+                                <li>广发银行</li>
+                                <li>平安银行</li>
+                                <li>中信银行</li>
+                                <li>兴业银行</li>
+                            </ul>
+                        </div>
+                        <!--银行弹出结束-->
+                    </li>
+                </ul>
+                <!--商品详情  结束-->
+
+                <!--温馨提示-->
+                <div class="notice fontGrey2">
+                    八百方的商品均来自正规合法药房，八百方作为第三方医药平台为您提供优质的售前售后服务。<br/>
+                    <span>
+               				<b style="color:red;font-size:14px">[温馨提示] </b>
+               				1、跨境商品不支持无理由退换货，若有产品质量问题，请联系八百方客服。请知悉，谢谢。
+               				2、海关清关需要，请在下单时于“给商家留言”处留下身份证号码。请确保身份证号码与收货人姓名信息一致。谢谢！
+               			</span>
+                </div>
+            </div>
+            <!--中间   结束-->
+
+            <!--右侧   开始-->
+            <div class="main_rgt">
+                <h2 class="font_main_rgt"><span class="icon_ping"></span>八百方合作商家</h2>
+                <p class="score_num clear">综合评分:<span>3.0</span></p>
+                <!--商家星星评分-->
+                <ul class="star_score clearfix">
+                    <li>
+                        <span class="fontGrey3 pf_tit">商品描述：</span>
+                        <span class="icon_star"><b id="b_desc"></b></span>
+                        <span class="fs fontBlue fontNum">5.0</span>
+                    </li>
+                    <li>
+                        <span class="fontGrey3 pf_tit">服务态度：</span>
+                        <span class="icon_star"><b id="b_service"></b></span>
+                        <span class="fs fontBlue fontNum">5.0</span>
+                    </li>
+                    <li>
+                        <span class="fontGrey3 pf_tit">发货速度：</span>
+                        <span class="icon_star"><b id="b_rate"></b></span>
+                        <span class="fs fontBlue fontNum">5.0</span>
+                    </li>
+                </ul>
+
+                <!--评分  好评率-->
+                <p class="serve_tit">
+                    <span>服务质量评分</span>
+                    <span class="compare">与整站相比</span>
+                </p>
+                <ul class="f_compare clearfix">
+                    <li id="favorable" class="clearfix">
+                        <span class="fontGrey3">好<em></em>评<em></em>率:</span>
+                        <span class="fontNum fenshu">0.0%</span>
+                        <span class=" fontRed fontNum b_pare">0.23</span>
+                    </li>
+                    <li id="fast" class="clearfix">
+                        <span class="fontGrey3 fh_48"></span>
+                        <span class="fontNum fenshu">0.0%</span>
+                        <span class=" fontRed fontNum b_pare">0.26</span>
+                    </li>
+                </ul>
+
+                <!--店铺客服-->
+                <ul class="kf_zl">
+                    <li class="frt">
+                        <span class="shop_t">店铺客服：</span>
+                        <a href="">
+                            <img border="0" width="80" height="20" border="none" src="{% static 'base/img/kefu_icon.png' %}"/>
+                        </a>
+                    </li>
+                    <li><br/></li>
+                    <li>
+                        <span class="fontGrey3">所在地区：</span>
+                        <span>香港九龙</span>
+                    </li>
+                    <li>
+                        <span class="fontGrey3">联<em></em>系<em></em>人：</span>
+                        <span>王伟健</span>
+                    </li>
+                    <li class="clearfix">
+                        <span class="fontGrey3 zs">资格证书：</span>
+                        <a href="" title="香港草姬资质证书"><span class="zs_pic"></span></a>
+                    </li>
+                </ul>
+
+                <!--进入药店  详细评分-->
+                <div class="b_btn">
+                    <a href="">
+                        <span class="come_in">进入药店</span>
+                        <span class="cir"></span>
+                    </a>
+                    <a href="">
+                        <span class="ping_fen">详细评分</span>
+                        <span class="cir"></span>
+                    </a>
+                </div>
+            </div>
+            <!--右侧   结束-->
+
+            <!--弹出购物车窗口-->
+            <div class="pop_cart" id="j_cartInfo"
+                 style="position: absolute; left: 444px; display: none; opacity: 0.9;  z-index: 1000; ">
+                <div class="bd">
+                    <p class="close_btn"></p>
+                    <div class="con">
+                        <div class="cart_icon"></div>
+                        <div class="cart_info">
+                            <p class="cl_o">商品已成功添加到购物车!</p>
+                            <p>购物车共有
+                                <span class="cl_r" id="CartProductNum"></span>件商品，共计
+                                <span class="cl_r" id="CartTotalMoney"></span>元
+                            </p>
+                        </div>
+                        <div class="btn">
+                            <input type="button" title="去购物车结算" value="去购物车结算" class="shop" id="go_shop" name="">
+                            <a class="close_a">继续购物</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ft"></div>
+            </div>
+        </div>
+    </div>
+    <!--主体部分  结束-->
+{% endblock %}
+

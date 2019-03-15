@@ -1,0 +1,383 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+
+        {% endblock %}
+    </title>
+{#    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">#}
+{#    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">#}
+
+    <link rel="stylesheet" href="{% static 'base/css/header--footer.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/sidebar_wrap.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/main_wrep.css' %}">
+
+    {% block extcss %}
+
+    {% endblock %}
+</head>
+<body>
+{% block body %}
+    {% block header %}
+        		<!--页头部分开始-->
+		<div id="header_wrap">
+				<!--页头顶部栏-->
+				<div class="top_nav">
+					<div class="top_nav_main">
+							<!--左侧 注册/登录-->
+						<p class="top_left">
+							<span>欢迎来到八百方</span>
+							<a href=" {% url 'bbf:login' %}" style="color: #ec478e;padding: 0 5px;">请登录</a>
+							<a href="{% url 'bbf:register' %}">免费注册</a>
+						</p>
+						<!--右侧菜单列表-->
+						<ul class="top_right">
+							<li><a href="{% url 'bbf:cart' %}"  style="border-right: 1px solid #ccc; height: 14px; padding: 0 8px 0 0;">
+								<img src="{% static 'base/img/g-1.png' %}" />
+								购物车
+								<span id="spoNum" style="color: #ec478e;">0</span>件
+								</a>
+							</li>
+							<li></li>
+							<li class="top_right_menu">
+								<a>我的八方</a>
+								<div class="top_r_dingdan">
+									<ul>
+										<li><a href="#">我的订单</a></li>
+										<li><a href="#">我的红包</a></li>
+										<li><a href="#">我的积分</a></li>
+										<li><a href="#">我的关注</a></li>
+
+									</ul>
+								</div>
+							</li>
+							<li><a href="#" style="border-right: 1px solid #ccc; height: 14px; padding: 0 10px 0 0;">会员大本营</a></li>
+							<li><a href="#"><img src="{% static 'base/img/g-2.png' %}" />手机版</a></li>
+							<li><a href="#"><img src="{% static 'base/img/g-3.png' %}" />帮助中心</a></li>
+							<li><img src="{% static 'base/img/g-4.png' %}" /> 400-885-5171</li>
+						</ul>
+					</div>
+				</div>
+
+				<!--页头主体部分-->
+				<div class="top_main">
+					<!--logo-->
+					<div class="logo">
+						<img src="{% static 'base/img/800fang-logo.jpg' %}">
+					</div>
+					<!--搜索-->
+                    {% block top_search %}
+                    <div class="top_search">
+						<form class="tm_search">
+							<input class="tm_search1" type="text" placeholder="药品名称/功效/症状" value="">
+							<input class="tm_search2" value="搜索" type="submit">
+						</form>
+						<div class="recommend">
+							<ul>
+								<li><a href="#">金戈</a></li>
+								<li><a href="#">汇仁</a></li>
+								<li><a href="#">阿胶</a></li>
+								<li><a href="#">同仁堂</a></li>
+								<li><a href="#">六味地黄丸</a></li>
+								<li><a href="#">伟哥</a></li>
+								<li><a href="#">恩必普</a></li>
+								<li><a href="#">优甲乐</a></li>
+								<li><a href="#">希爱力</a></li>
+								<li><a href="#">开同</a></li>
+							</ul>
+						</div>
+					</div>
+                    {% endblock %}
+
+
+					<!--证  / 保-->
+					<div class="top_ensure">
+						<p class="top_ensure2">
+							<a href="http://www.800pharm.com/zhuanti/insurance/index.html"><img class="ii2" src="{% static 'base/img/i-2.png' %}"></a>
+							<span>正品保险</span>
+						</p>
+						<p class="top_ensure1">
+							<img class="ii1" src="{% static 'base/img/i-1.png' %}">
+
+							<span>国A20140001</span>
+						</p>
+					</div>
+				</div>
+        </div>
+
+    {% endblock %}
+
+{#    内容部分#}
+    <div class="hidescroll">
+        <div id="'content">
+            {% block content %}
+
+            {% endblock %}
+        </div>
+    </div>
+
+
+    {% block footer %}
+
+    		<!--页面尾部部分开始-->
+		<div id="footer_wrap">
+			<!--正 快 换-->
+			<div class="ft_top_box">
+				<a class="ft_top_content" href="#">
+					<ul class="ft_top_list">
+						<li class="ft_top_item">
+							<i class="i-icon ft-icon1"></i>
+							<p class="ft_top_tit">正品保证</p>
+							<p class="ft_top_tet">中华保险承担</p>
+						</li>
+						<li class="ft_top_item">
+							<i class="i-icon ft-icon2"></i>
+							<p class="ft_top_tit">快速发货</p>
+							<p class="ft_top_tet">48小时内发货</p>
+						</li>
+						<li class="ft_top_item">
+							<i class="i-icon ft-icon3"></i>
+							<p class="ft_top_tit">七天退换</p>
+							<p class="ft_top_tet">7天无理由退换货</p>
+						</li>
+						<li class="ft_top_item">
+							<i class="i-icon ft-icon4"></i>
+							<p class="ft_top_tit">先行赔付</p>
+							<p class="ft_top_tet">质量问题先赔付</p>
+						</li>
+						<li class="ft_top_item">
+							<i class="i-icon ft-icon5"></i>
+							<p class="ft_top_tit">隐私保护</p>
+							<p class="ft_top_tet">客服信息保密</p>
+						</li>
+						<li class="ft_top_item">
+							<i class="i-icon ft-icon6"></i>
+							<p class="ft_top_tit">专业药师咨询</p>
+							<p class="ft_top_tet">提供专业药师咨询服务</p>
+						</li>
+					</ul>
+				</a>
+			</div>
+			<!--购物指南-->
+			<div class="ft_info_box">
+				<!--指南 --- 帮助中心-->
+				<div class="ft_info_content">
+					<ul class="info_content_list">
+						<li class="info_content_item">
+							<p class="info_tit">
+								<i class="i-icon black_nav1"></i>
+								购物指南
+							</p>
+							<a class="info_a" href="#">用户注册</a>
+							<a class="info_a" href="#">购物流程</a>
+							<a class="info_a" href="#">订购方式</a>
+							<a class="info_a" href="#">订单状况</a>
+						</li>
+						<li class="info_content_item">
+							<p class="info_tit">
+								<i class="i-icon black_nav2"></i>
+								支付方式
+							</p>
+							<a class="info_a" href="#">货到付款</a>
+							<a class="info_a" href="#">在线支付</a>
+							<a class="info_a" href="#">银行转账</a>
+							<a class="info_a" href="#">优惠券说明</a>
+						</li>
+						<li class="info_content_item">
+							<p class="info_tit">
+								<i class="i-icon black_nav3"></i>
+								售后服务
+							</p>
+							<a class="info_a" href="#">用药咨询</a>
+							<a class="info_a" href="#">收货说明</a>
+							<a class="info_a" href="#">退换商品</a>
+							<a class="info_a" href="#">发票制度</a>
+						</li>
+						<li class="info_content_item">
+							<p class="info_tit">
+								<i class="i-icon black_nav4"></i>
+								帮助中心
+							</p>
+							<a class="info_a" href="#">常见问题</a>
+							<a class="info_a" href="#">注意事项</a>
+							<a class="info_a" href="#">维权指导</a>
+						</li>
+					</ul>
+					<!--Tel-->
+					<div class="info_contact">
+						<p class="ic_tel">Tel:400-885-5171</p>
+						<p class="ic_time">服务时间：每天8:30 - 22:00</p>
+						<a class="ic_weibo" href="#">
+							<i class="i-icon ic_icons1" title='关注八百方官方微博'></i>
+							关注八百方官方微博<br />
+						</a>
+						<a class="ic_mail" href="#" >
+							<i class="i-icon ic_icons2" title="联系邮箱"></i>
+							service@800paarm.com
+						</a>
+					</div>
+					<!--二维码-->
+					<div class="info_prcode">
+						<a class="ip_img" title="微信扫码，首单立减5元">
+							<img alt="微信扫码，首单立减5元" src={% static "base/img/qrCode.jpg" %} />
+						</a>
+						<p>微信扫码<br />首单立减5元</p>
+					</div>
+				</div>
+
+			</div>
+			<!--了解更多-->
+			<div class="ft_link_box">
+				<div class="link">
+					<a href="#">关于我们</a>|
+					<a href="#">广告服务</a>|
+					<a href="#">商城合作</a>|
+					<a href="#">合作伙伴</a>|
+					<a href="#">友情链接</a>|
+					<a href="#">法律声明</a>|
+					<a href="#">隐私保护</a>|
+					<a href="#">人才招聘</a>|
+					<a href="#">联系我们</a>|
+					<a href="#">网站地图</a>|
+					<a href="#">上架商品索引</a>|
+					<a href="#">下架商品索引</a>|
+					<a href="#">网上药店城市索引</a>
+				</div>
+				<div class="copyright">
+					<p>
+						<a href="#">ICP证粤B2-20100352</a>
+						<a href="#">粤ICP备10009268号-2</a>
+						<a href="#">互联网药品交易服务资格证书-国A-20140001</a>
+						<a href="#">互联网药品信息服务资格证书（粤）-经营性-2013-0014 </a>
+					</p>
+					<p>
+						Copyright© 2010-2016 www.800pharm.com All Rights Reserved
+						<a href="#">八百方网上药店</a>
+						版权所有
+						<a href="#">互联网药品信息服务</a>
+						<a href="#">安全联盟</a>
+					</p>
+					<p>八百方网上药店隶属于广州八百方信息技术有限公司 - 全国首批正规合法网上药店平台之一,100%正品保障,并有国家执业药师提供免费咨询.</p>
+
+				</div>
+			</div>
+
+			<!--协作、证明-->
+			<div class="ft-authentication-box">
+	        	<a  href=""><img src='{% static "base/img/cxwz.jpg" %}' alt="诚信网站" > </a>
+
+	            <span id="kx_verify" class="kx_verify"></span>
+	            <a href=""><img src="{% static 'base/img/cnnic.png' %}" alt="支付宝" ></a>
+	            <a href=""><img src='{% static "base/img/zfb.jpg" %}' alt="银联在线支付" ></a>
+	            <a href=""><img src='{% static "base/img/cft.jpg" %}' alt="财付通" > </a>
+	            <a href=""><img src='{% static "base/img/gsgl.jpg" %}' alt="工商网监" ></a>
+	            <a href=""><img src='{% static "base/img/bz.jpg" %}' alt="消费者保障" ></a>
+	            <a href=""><img src='{% static "base/img/icp.jpg" %}' alt="网站备案信息" ></a>
+				<a href=""><img src='{% static "base/img/aqlm.png" %}' alt="安全联盟" ></a>
+
+	        </div>
+		</div>
+		<!--页面尾部部分结束-->
+    {% endblock %}
+
+		<!--侧栏  购物车、客服咨询-->
+		<div class="sidebar_wrap">
+			<div class="sidebar_bg"></div>
+			<ul class="sidebar_main">
+				<li class="sidebar_content sidebar_cart">
+					<a href="../cart/cart.html">
+						<i class="i-icon sid_icon1"></i>
+						<p>购物车</p>
+						<span id="sidebar_car"></span>
+					</a>
+				</li>
+				<li class="sidebar_line"></li>
+
+				<li class="sidebar_content sidebar_kefu">
+					<span class="drawer"></span>       <!--小三角形-->
+					<i class="i-icon sid_icon2"></i>
+					<p>客服咨询</p>
+					<div class="sidebar_deawer kefu_drawer" style="left: 36px; height: 260px;">
+						<span class="close_kefu">×</span>
+						<a class="btn btns" title="" href="">售前咨询</a>
+						<a class="btn" title="" href="">售后服务</a>
+						<div class="qr_code">
+							<img alt="微信扫码，首单立减5元" src='{% static "base/img/sidebar-code.jpg" %}' >
+							<p>微信扫码<br />首单立减5元</p>
+						</div>
+					</div>
+				</li>
+				<li class="sidebar_line"></li>
+
+				<li class="sidebar_content sidebar_member">
+					<span class="sm_handle"></span>	<!--小三角形-->
+					<i class="i-icon sid_icon3"></i>
+					<div class="sidebar_deawer sm_drawer">
+						<div class="logout">
+							<img src="{% static 'base/img/user-header.png' %}" >
+							<p>您好，请登录！</p>
+							<a href="../login/login.html">登录</a>
+							<a href="../register/register.html">注册</a>
+						</div>
+						<p class="btm">会员积分请登录</p>
+					</div>
+				</li>
+			</ul>
+			<ul class="sidebar_top">
+				<li>
+					<a>
+						<i class="i-icon icon_top"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<!--客服电话回拨弹出框-->
+		<div class="kefu_pop_wrap">
+			<div class="kefu_pop_big" style="display: block;left: 100px; top: 100%; height: 140px; width: 86px; opacity: 0;">
+				<a class="big_close"></a>
+				<div class="big_content">
+					<a class="shouqian"></a>
+					<a class="shouhou"></a>
+				</div>
+			</div>
+
+			<div class="kefu_pop_mid" style="left: 80px; width: 86px; height: 140px; bottom: 20px; display: block; opacity: 1;">
+				<a class="mid_close"></a>
+				<a class="mid_btn"></a>
+			</div>
+
+			<div class="kefu_pop_small" style="display: block; opacity: 0">
+				<p class="small_tips">联系我们</p>
+				<span class="small_icon"></span>
+			</div>
+		</div>
+
+{% endblock %}
+
+{#吸顶框#}
+{% block fixed_search_box %}
+
+{% endblock %}
+
+
+<script src="{% static 'base/js/jquery-1.12.3.js' %}"></script>
+<script src="{% static 'base/js/jquery.cookie.js' %}"></script>
+{#<script src="{% static 'base/js/cart.js' %}"></script>#}
+<script src="{% static 'base/js/header--footer.js' %}"></script>
+<script src="{% static 'base/js/main_wrap.js' %}"></script>
+<script src="{% static 'base/js/sidebar.js' %}"></script>
+<script src="{% static 'base/js/index_addjson.js' %}"></script>
+<script src="{% static 'base/js/jquery.js' %}"></script>
+<script src="{% static 'base/js/base.js' %}"></script>
+<script src="{% static 'base/js/swiper.js' %}"></script>
+
+{% block extjs %}
+
+{% endblock %}
+</body>
+</html>
+
