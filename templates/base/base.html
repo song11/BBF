@@ -30,9 +30,13 @@
 							<!--左侧 注册/登录-->
 						<p class="top_left">
 							<span>欢迎来到八百方</span>
-							<a href=" {% url 'bbf:login' %}" style="color: #ec478e;padding: 0 5px;">请登录</a>
+							<a href=" {% url 'bbf:login' %}" style="color: #ec478e;padding: 0 5px;">
+                                {{ user.mobile | default:'未登录' }}
+                            </a>
 							<a href="{% url 'bbf:register' %}">免费注册</a>
 						</p>
+
+
 						<!--右侧菜单列表-->
 						<ul class="top_right">
 							<li><a href="{% url 'bbf:cart' %}"  style="border-right: 1px solid #ccc; height: 14px; padding: 0 8px 0 0;">
@@ -370,7 +374,7 @@
 <script src="{% static 'base/js/header--footer.js' %}"></script>
 <script src="{% static 'base/js/main_wrap.js' %}"></script>
 <script src="{% static 'base/js/sidebar.js' %}"></script>
-<script src="{% static 'base/js/index_addjson.js' %}"></script>
+{#<script src="{% static 'base/js/index_addjson.js' %}"></script>#}
 <script src="{% static 'base/js/jquery.js' %}"></script>
 <script src="{% static 'base/js/base.js' %}"></script>
 <script src="{% static 'base/js/swiper.js' %}"></script>

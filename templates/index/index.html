@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block title %}
-    首页
+    {{ title }}
 {% endblock %}
 
 {% block extcss %}
@@ -291,17 +291,19 @@
     <!--页面主体部分开始-->
     <div id="main_wrap">
         <!--轮播图  开始-->
-        <div class="swiper-container" id="topSwiper">
-            <div class="swiper-wrapper">
-                <img class="swiper-slide" src="{% static 'base/img/carousel-1.jpg' %}" alt="">
-                <img class="swiper-slide" src="{% static 'base/img/carousel-2.jpg' %}" alt="">
-                <img class="swiper-slide" src="{% static 'base/img/carousel-3.jpg' %}" alt="">
-                <img class="swiper-slide" src="{% static 'base/img/carousel-4.jpg' %}" alt="">
-                <img class="swiper-slide" src="{% static 'base/img/carousel-5.jpg' %}" alt="">
-            </div>
-            <!-- Add Pagination -->
+        <div class="swiper-container" id="baner_scoller">
+            <ul id="barss" class="swiper-wrapper">
+                {% for baner in baners %}
+                    <li class="swiper-slide" style="background: {{ baner.backColor }};">
+                        <a href=""><img src="{% static baner.img %}" alt="{{ baner.title }}"></a>
+                     </li>
+                {% endfor %}
+
+            </ul>
+        <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
         </div>
+
 
         <!--首屏轮播图  侧边小块 ->>> 商家加盟-->
         <div class="baner_extre">
@@ -356,7 +358,7 @@
                     <p class="pd_price"><em>￥210</em>
                         <del>/380</del>
                     </p>
-                    <a class="pd_img" href="../product_details/product_details.html" title="金戈10片装特价包邮">
+                    <a class="pd_img" href="{% url 'bbf:product_details' %}" title="金戈10片装特价包邮">
                         <img id="tz_pd" alt="金戈10片装特价包邮" src="{% static 'base/img/20160808154653_931.jpg' %}"/>
                     </a>
                 </li>
@@ -366,7 +368,7 @@
                     <p class="pd_price"><em>￥284</em>
                         <del>/370</del>
                     </p>
-                    <a class="pd_img" href="../product_details/product_details.html" title="草姬男极">
+                    <a class="pd_img" href="{% url 'bbf:product_details' %}" title="草姬男极">
                         <img id="tz_pd" alt="草姬男极" src="{% static 'base/img/20160906091633_854.jpg' %}"/>
                     </a>
                 </li>
@@ -376,7 +378,7 @@
                     <p class="pd_price"><em>￥708</em>
                         <del>/799</del>
                     </p>
-                    <a class="pd_img" href="../product_details/product_details.html" title="陈李济 舒筋健腰丸">
+                    <a class="pd_img" href="{% url 'bbf:product_details' %}" title="陈李济 舒筋健腰丸">
                         <img id="tz_pd" alt="陈李济 舒筋健腰丸" src="{% static 'base/img/20160728152149_248.jpg' %}"/>
                     </a>
                 </li>
@@ -386,7 +388,7 @@
                     <p class="pd_price"><em>￥148</em>
                         <del>/179</del>
                     </p>
-                    <a class="pd_img" href="../product_details/product_details.html" title="【润众】恩替卡韦分散片7片">
+                    <a class="pd_img" href="{% url 'bbf:product_details' %}" title="【润众】恩替卡韦分散片7片">
                         <img id="tz_pd" alt="【润众】恩替卡韦分散片7片" src="{% static 'base/img/20160808155521_217.jpg' %}"/>
                     </a>
                 </li>
@@ -418,6 +420,16 @@
                     <!--品牌商家-->
                     <ul class="rm_list">
                         <!--json  添加品牌商家-->
+                        {% for mrecommend in mrecommends %}
+                        <li class="rem_img">
+                            <a href=""> <img src="{% static mrecommend.img %}" alt="{{ mrecommend.tits }}"></a>
+                            <a href="">{{ mrecommend.name }}</a>
+                            <p>{{ mrecommend.tits }}</p>
+                            <p><em>{{ mrecommend.price1 }}</em><del>{{ mrecommend.price2 }}</del></p>
+
+                        </li>
+                        {% endfor %}
+{#
                     </ul>
                 </div>
             </div>
@@ -433,6 +445,22 @@
             <div class="daily_rec_content">
                 <ul class="daily_rec_list">
                     <!--json  添加商品-->
+                    {% for daySale in daySales %}
+
+                     <li class="daily_rec_li">
+                        <a href="#">
+                            <div class="pd_wrapper">
+                                <p class="pd_name">{{ daySale.name }}</p>
+                                <p class="pd_desp">{{ daySale.tits }}</p>
+                                <p class="pd_price">
+                                    <em>{{ daySale.price1 }}</em>
+                                    <del>{{ daySale.price2 }}</del>
+                                </p>
+                                <img src="{% static daySale.img %}" alt="" class="pd_img">
+                            </div>
+                        </a>
+                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>

@@ -18,18 +18,33 @@ $(function(){
 				$('#r_mobileTip').hide();
 				$('#r_mobileTip1').show();
 				$('#r_mobileTip2').hide();
-			}else if(pattern.test($('#r_mobile').val())){
-				$('#r_mobileTip').hide();
-				$('#r_mobileTip1').hide();
-				$('#r_mobileTip2').show();
-				rdt_true = true;				
 			}
-		})	
-		$('#r_mobile').focus(function(){
-			$('#r_mobileTip').show();
-			$('#r_mobileTip1').hide();
-			$('#r_mobileTip2').hide();
-		})		
+			else if(pattern.test($('#r_mobile').val())) {
+				request_data = {
+					'mobile': $(this).val()
+				}
+				//调用ajax对接服务器进行验证
+				$.get('/bbf/checkmobile/', request_data, function (response) {
+					console.log(response)
+					if (response.status) {
+						$('#r_mobileTip').hide();
+						$('#r_mobileTip1').hide();
+						$('#r_mobileTip2').show();
+						rdt_true = true;
+					} else if (response.status == 0) {
+						$('#r_mobileTip').hide();
+						$('#r_mobileTip1').show();
+						$('#r_mobileTip2').hide();
+					}
+				})
+				$('#r_mobile').focus(function () {
+					$('#r_mobileTip').show();
+					$('#r_mobileTip1').hide();
+					$('#r_mobileTip2').hide();
+				})
+			}
+		})
+
 	/*密码验证*/
 		$('#r_pwd').blur(function(){
 			var pattern =/^\w{6,16}$/;	
@@ -113,26 +128,10 @@ $(function(){
 
 /*点击注册按钮*/
 	$('.reg_btn').on('click',function(){
-		console.log('jldksjf ')
-		var users = $.cookie("users") ? JSON.parse($.cookie("users")) : [];
-		for (var i=0; i<users.length; i++) {			
-			if ( users[i].name == $("#RUserName").val() ) {
-				$(".name_remind").html("用户名已存在! 不能注册相同的用户");
-				return;
-			}
-		}		
+		console.log('注册js ')
 		if(rdt_true  && rpd1_true && rpd2_true && idn_true && sml_true){
-			alert('注册成功');
-			window.setTimeout(function(){
-				window.location.href = "login.html";
-			},2000);
-			var att = {
-				name: $('#r_mobile').val(),
-				pwd: $('#r_pwd').val(),
-			}
-			users.push(att);
-			$.cookie("users", JSON.stringify(users), {expires:22, path:"/"});
-			
+			$('.b_form form').submit()
+ 				alert('注册成功');
 		}
 		else if(!rdt_true){
 			alert('手机号输入有误');
@@ -151,11 +150,6 @@ $(function(){
 		}
 				
 	})
-	
-	
-	
-	
-	
-	
+
 	
 })

@@ -1,16 +1,26 @@
 
 $(function(){
 	//轮播图
-	var topSwiper = new Swiper('#topSwiper', {
-        pagination: '.swiper-pagination',
+	// var topSwiper = new Swiper('#topSwiper', {
+    //     pagination: '.swiper-pagination',
+    //     slidesPerView: 1,
+    //     paginationClickable: true,
+    //     spaceBetween: 30,
+    //     loop: true,
+    //     autoplay: 3000,
+    //     effect: 'coverflow',
+	var baner_scoller = new Swiper('#baner_scoller',{
+		pagination: '.swiper-pagination',
         slidesPerView: 1,
         paginationClickable: true,
         spaceBetween: 30,
         loop: true,
         autoplay: 3000,
-        effect: 'coverflow',
+		effect: 'coverflow',
 
-    });
+	})
+
+    // });
 	//侧栏楼梯
 	indexSideNav();
 })

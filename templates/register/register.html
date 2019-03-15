@@ -34,15 +34,18 @@
             <li class="">邮箱注册</li>
         </ul>
         <div class="b_form">
-            <form class="form">
+            <form class="form" action="{% url 'bbf:register' %}" method="post">
+
+                {% csrf_token %}
                 <div class="input_list">
                     <p class="b_name">手机号：</p>
                     <div class="b_input"><input name="mobile" placeholder="手机号码" type="text" id="r_mobile"
                                                 class="input"/></div>
                     <p class="b_tips">
                         <span class="tips" id="r_mobileTip" style="display: block;">请输入你的手机号码</span>
-                        <span class="tips" id="r_mobileTip1" style="display: none;">号码格式错误,请输入11位数手机号码</span>
+                        <span class="tips" id="r_mobileTip1" style="display: none;">号码有误/已被占用</span>
                         <span class="tips" id="r_mobileTip2" style="display: none;">手机号输入正确</span>
+
                     </p>
                 </div>
 
@@ -100,8 +103,11 @@
                     <span class="math"></span>
                 </div>
                 <!--注册-->
-                <input name="button" class="reg_btn" type="button" value="注册"/>
+{#                <input name="button" class="reg_btn" type="button" value="注册" />#}
+
             </form>
+
+            <button name="button" class="reg_btn">注册</button>
         </div>
 
 

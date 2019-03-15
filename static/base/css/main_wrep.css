@@ -2,18 +2,10 @@
 #main_wrap { position: relative; z-index: 1; min-width: 1190px; margin: 0 auto; }
 
 /*轮播图*/
-/*.baner_scoller { width: 100%; height: 480px;position: relative; background: cyan; overflow: hidden;}*/
-/*.baner_scoller ul li {width: 100%; height: 100%; display: block; float: left;  } */
-/*.baner_scoller ul li a {display: block; width: 1190px; height: 480px; margin: 0 auto;}*/
-/*.baner_scoller ul li a img {width: 1190px; height: 480px;}*/
-/*.baner_scoller ol {list-style: none; width:180px; height:30px; position:absolute; z-index:100; text-align:center; bottom:0; left: 50%;}*/
-/*.baner_scoller ol li { width:13px; height:13px; border-radius:50%; border:solid 1px #ec478e; float:left; margin: 0 10px; cursor:pointer;}*/
-
-#topSwiper {width: 100%; height: 480px;position: relative; background: cyan; overflow: hidden;}
-#topSwiper .swiper-wrapper{width: 100%; height: 100%;float: left;  }
-#topSwiper .swiper-wrapper a{display: block; width: 1190px; height: 480px;margin: 0 auto;}
-#topSwiper img{width: 1190px; height: 480px;}
-#topSwiper .swiper-pagination{bottom: 0px;}
+.swiper-container { width: 100%; height: 480px;position: relative; overflow: hidden;}
+.swiper-container ul li {width: 100%; height: 100%;  float: left;  }
+.swiper-container ul li a {display: block; width: 1190px; height: 480px; margin: 0 auto;}
+.swiper-container ul li a img {width: 1190px; height: 480px;}
 
 /*首屏轮播图  侧边小块 ->>> 商家加盟*/
 .baner_extre {color: black; position: absolute; z-index: 2; top: 38px; left: 50%; width: 168px; height: 412px; margin-left: 405px; padding: 15px 11px; }
@@ -65,16 +57,18 @@
 .main_rec_content .rm_side  { width: 470px; height: 322px; margin-right: 11px; display: block; float: left; border-top: 1px solid #f3f3f3; border-bottom: 1px solid #f3f3f3; }
 .main_rec_content .rm_side img { width: 470px; height: 322px; }
 /*品牌商家*/
-.rm_list { float: left;  overflow: hidden; width: 708px; height: 319px; padding: 1px 0 0 1px; background: #e6e6e6; }
-.rm_list .rem_img { float: left; width: 176px; height: 106px; margin-right: 1px; margin-bottom: 1px; }
+.rm_list { float: left;  overflow: hidden; width: 708px; height: 270px; padding: 50px 0px 0 1px; background: #e6e6e6; }
+.rm_list .rem_img { float: left; width: 176px; height: 106px; margin-right: 60px; margin-bottom: 1px; text-align: center;color: black;font-size: 14px;}
 .rm_list .rem_img a { display: block; }
-.rm_list .rem_img a img { float: left; }
+.rm_list .rem_img a img { float: left;}
+.rm_list .rem_img p em { font-family: microsoft yahei;font-size: 16px;font-style: normal;color: #e6186f;margin-right: 5px;}
+
 
 /*每日优惠*/
 .daily_rec_box { margin: 36px auto 0; }
 .daily_rec_box h2 { width: 1190px; height: 38px; line-height: 38px; margin: 0 auto; color: #222; font-size: 16px; font-weight: 400; font-family: "microsoft yahei"; }
 .daily_rec_box h2 .i-icon { display: inline-block; background: url(../img/i-icon.png); vertical-align: middle; margin: -2px 5px 0 0; }
-.daily_rec_box h2 .dr_icon{ width: 17px; height: 19px; background-position: -23px -119px; } 
+.daily_rec_box h2 .dr_icon{ width: 17px; height: 19px; background-position: -23px -119px; }
 .daily_rec_content { height: 272px; margin: 0 auto; padding: 1px 0; background: #f3f3f3; }
 .daily_rec_list { width: 1190px; height: 272px; margin: 0 auto; }
 .daily_rec_list .daily_rec_li { position: relative; z-index: 1; float: left;  width: 197px; height: 248px; margin-left: 1px; padding: 24px 20px 0; background: #fff;}
@@ -84,7 +78,7 @@
 .daily_rec_list .daily_rec_li .pd_price em {padding-right: 5px; font-family: "microsoft yahei"; font-size: 16px; font-style: normal;  color: #e6186f;}
 .daily_rec_list .daily_rec_li .pd_price del{ color: #6e6e6e; }
 .daily_rec_list .daily_rec_li .pd_img  { width: 237px; height: 165px; position: absolute;z-index: 2; bottom: 0; left: 0; }
-.daily_rec_list .daily_rec_li a img { display: block; float: left; } 
+.daily_rec_list .daily_rec_li a img { display: block; float: left; }
 
 /*药品分类*/
 .main_cate_box { width: 1190px; margin: 33px auto 0; }

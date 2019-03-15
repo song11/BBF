@@ -19,18 +19,19 @@
 .b_form .form { padding-top: 33px; overflow: hidden; }
 .b_form .form .input_list { margin-bottom: 12px; height: 32px; overflow: hidden;  clear: both;}
 .b_form .form .input_list .b_name { display: inline; float: left;  width: 85px; height: 30px; text-align: right; padding-right: 4px; overflow: hidden;} 
-.b_form .form .input_list .b_input { float: left; width: 235px; height: 30px; overflow: hidden; zoom: 1; background: url(../../base/img/regLog.png) no-repeat 0 -124px; }
+.b_form .form .input_list .b_input {
+    float: left; width: 235px; height: 30px; overflow: hidden; zoom: 1; background: url(../../base/img/regLog.png) no-repeat 0 -124px; }
 .b_form .input { width: 235px; height: 30px; padding: 0 5px; background: none; border: none; font: 12px/30px verdana; color: #666;}
-.b_form .ident { width: 65px; height: 30px; padding: 0 5px; background: none; border: none; font: 16px/30px verdana; color: deepskyblue; }
+.b_form .ident { font-size: 10px; width: 65px; height: 30px; padding: 0 5px; background: none; border: none;  color: deepskyblue; }
 .b_form .form .input_list .b_tips { position: relative; height: 30px; float: left; width: 250px; padding-left: 15px; overflow: hidden; }
 #r_pwdTip1 , #r_pwd2Tip1 , #r_mobileTip1 { position: relative; color: #a3390f;border: 1px solid #f57e16; line-height: 20px;padding: 0 10px 0 10px; height: 20px; float: left; background: #ffc774;  padding-left: 15px; overflow: hidden;  }
 #r_pwdTip2 , #r_pwd2Tip2 , #r_mobileTip2 { position: relative; color: #317d03;border: 1px solid #12aa23; line-height: 20px;padding: 0 10px 0 10px; height: 20px; float: left; background: #e6fbe1;  padding-left: 15px; overflow: hidden;  }
 .b_form .form .tips { color: #666; line-height: 30px; }
-.b_form .form .phone_btn { float: left;display: inline; width: 103px; height: 30px; margin-left: 88px; color: #464646; text-align: center; cursor: pointer; background: url(../img/regLog.png) no-repeat -75px -64px; }
+.b_form .form .phone_btn { float: left;display: inline; width: 103px; height: 30px; margin-left: 88px; color: #464646; text-align: center; cursor: pointer; background: url(../../base/img/regLog.png) no-repeat -75px -64px; }
 .b_form .form #sendMobile {width: 103px; height: 30px; line-height: 30px; border: none; background: none; color: #666; }
-.b_form .form .ident {  background: url(../img/regLog.png) no-repeat 0 -64px; }
+.b_form .form .ident {  background: url(../../base/img/regLog.png) no-repeat 0 -64px; }
 .b_form .form .ident_num { color: blueviolet; font: 16px/22px "微软雅黑"; text-align: center;  float: right; width: 55px; height: 22px; margin: 2px 2px 0; }
-.b_form .form  .reg_btn { display: inline-block; color: #fff; width: 128px; height: 36px; margin: 18px 0 0 89px; font: 14px/36px "微软雅黑"; text-align: center;border: none; background: url(../../base/img/regLog_icon.png) no-repeat 0 -166px; clear: both; text-decoration: none; cursor: pointer; }
+.b_form .reg_btn { display: inline-block; color: #fff; width: 128px; height: 36px; margin: 18px 0 0 89px; font: 14px/36px "微软雅黑"; text-align: center;border: none; background: url(../../base/img/regLog_icon.png) no-repeat 0 -166px; clear: both; text-decoration: none; cursor: pointer; }
 
 
 
