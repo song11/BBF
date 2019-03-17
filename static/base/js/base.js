@@ -1,10 +1,20 @@
 // $(function () {
-//     // 设计稿宽度 320 px
-//     // 默认字体大小为16px
-//     // 1rem = 16px  [根据body的字体大小]
-//     document.documentElement.style.fontSize = innerWidth / 320 * 16 + 'px';
-//
-//     // 为了隐藏滚动条
-//     $('#content').width(innerWidth+20)
-//
+//     $("#spoNum").click(function () {
+//         request_data = {
+//             'goodsid':$(this).attr('data-goodsid'),
+// 			'goodsNum' : $('#quantity').attr('value')
+//         }
+//         var $that = $(this)
+//         console.log(request_data)
+//         $.get('/bbf/addcart/',request_data,function (response) {
+//             console.log(response)
+//             if (response.status == -1){
+//                 $("#spoNum").text() = 0
+//             else if(response.status ==1) {
+//                 $("#spoNum").text() = response.number
+//             }
+//             }
+//         })
+//     })
 // })
+

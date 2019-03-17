@@ -53,8 +53,17 @@ $(function(){
 		}					
 	}
 	
+// 商品单价
+	function simgleprice() {
+        var sum = 0
+		var price = $('.price').text()
+		var num = $('.num').value()
+		console.log(price,num)
+		sum = parseInt(num) * parseInt(price)
 
-	
+        $('.st').text(sum)
+    }
+
 /*商品总价*/
 	function Amount(){
 		var x=[];

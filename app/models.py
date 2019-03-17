@@ -46,3 +46,63 @@ class User(models.Model):
 
     class Meta:
         db_table = 'user'
+
+
+# 商品模型类
+class GOODs(models.Model):
+    # 商品ID
+    productid = models.CharField(max_length=10)
+    # 商品图片
+    productimg = models.CharField(max_length=100)
+    # 商品名称
+    productname = models.CharField(max_length=100)
+    # 商品长名字
+    productlongname = models.CharField(max_length=100)
+    # 广告语
+    ads = models.CharField(max_length=100)
+    # 规格
+    specifics = models.CharField(max_length=100)
+    # 价格
+    price = models.FloatField()
+    # 超市价格
+    marketprice = models.FloatField()
+    # 一级分类
+    categoryname_1st = models.CharField(max_length=50)
+    # 二级分类
+    categoryname_2st = models.CharField(max_length=50)
+    # 三级分类
+    categoryname_3st = models.CharField(max_length=50)
+    # 库存量
+    storenums = models.IntegerField()
+    #商家名字
+    seller = models.CharField(max_length=50)
+    #商家地址
+    selleraddr = models.CharField(max_length=100)
+    #商家联系人
+    sellername = models.CharField(max_length=50)
+    class Meta:
+        db_table = 'goods_5'
+
+#购物车
+class Cart(models.Model):
+    user = models.ForeignKey(User)
+    goods = models.ForeignKey(GOODs)
+    number = models.IntegerField()
+    isselect = models.BooleanField(default=True)
+    isdelect = models.BooleanField(default=False)
+
+    class Meta:
+        db_table = 'cart'
+
+class Order(models.Model):
+    user = models.ForeignKey(User)
+    createtime = models.DateTimeField(auto_now_add=True)
+    updatetime = models.DateTimeField(auto_now=True)
+    status = models.IntegerField(default=0)
+    identifier = models.CharField(max_length=256)
+
+
+class OrderGoods(models.Model):
+    order = models.ForeignKey(Order)
+    goods = models.ForeignKey(GOODs)
+    number = models.IntegerField()

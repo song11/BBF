@@ -42,7 +42,7 @@
 							<li><a href="{% url 'bbf:cart' %}"  style="border-right: 1px solid #ccc; height: 14px; padding: 0 8px 0 0;">
 								<img src="{% static 'base/img/g-1.png' %}" />
 								购物车
-								<span id="spoNum" style="color: #ec478e;">0</span>件
+								<span id="spoNum" style="color: #ec478e;">{{ cart.number }}</span>件
 								</a>
 							</li>
 							<li></li>
