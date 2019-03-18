@@ -1,4 +1,7 @@
 {% extends 'base/base.html' %}
+{% block header %}
+
+{% endblock %}
 
 {% block footer %}
 
@@ -9,10 +12,10 @@
 {% endblock %}
 
 {% block content %}
-    <div class="orderlist">
+    <div class="orderlist" style="margin-left: 50px;margin-top:50px;font-size: 16px;">
         {% for order in orders %}
             <p class="bg-info">
-                <a href="{% url 'axf:orderdetail'  order.identifier%}">
+                <a href="{% url 'bbf:orderdetail'  order.identifier%}">
                     订单号:{{ order.identifier }} --
                     {% if order.status == 0 %}
                         未付款

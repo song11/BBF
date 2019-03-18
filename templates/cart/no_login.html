@@ -1,0 +1,30 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}
+    未登录
+{% endblock %}
+{% block extcss %}
+    <link rel="stylesheet" href="{% static 'login/css/login.css' %}"/>
+{% endblock %}
+
+{% block extjs %}
+    <script src="{% static 'login/js/login.js' %}"></script>
+{% endblock %}
+
+{% block top_search %}
+
+{% endblock %}
+
+{% block content %}
+    <div class="main_sh_wp" id="main_sh_wp">
+        <div class="sh_wp_content">
+            <div class="swc_top">
+                <span>您当前的位置：</span>
+                <a href="../index/index.html">首页</a>
+                > 购物车
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

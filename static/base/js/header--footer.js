@@ -20,6 +20,7 @@ $(function(){
 		$(this).removeClass('bor')
 		$('.top_r_dingdan').hide()
 	})
+	$('#spoNum').html($('#quantity').attr('value'))
 	//页头顶部栏结束
 	
 	//鼠标移入  展开分类

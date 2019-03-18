@@ -1,0 +1,25 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}
+    我的订单
+{% endblock %}
+
+
+{% block content %}
+    <div class="mine" style="font-size: 20px;margin-top: 50px;margin-left: 50px">
+
+            <section class="my">
+            <a href="{% url 'bbf:orderlist' %}">我的订单 <b class="glyphicon glyphicon-chevron-right"></b></a>
+            </section>
+
+            <section>
+                <hr>
+                <br>
+                <p>待付款: {{ waitpay }} 单</p><br>
+                <p>待发货: {{ paydone }} 单</p><br>
+                <p>待收货: {{ receive }} 单</p><br>
+            </section>
+
+    </div>
+{% endblock %}

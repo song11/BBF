@@ -30,7 +30,7 @@
 							<!--左侧 注册/登录-->
 						<p class="top_left">
 							<span>欢迎来到八百方</span>
-							<a href=" {% url 'bbf:login' %}" style="color: #ec478e;padding: 0 5px;">
+							<a href=" {% url 'bbf:login' %}" style="color: #ec478e;padding: 0 5px;" class="login_state">
                                 {{ user.mobile | default:'未登录' }}
                             </a>
 							<a href="{% url 'bbf:register' %}">免费注册</a>
@@ -42,7 +42,7 @@
 							<li><a href="{% url 'bbf:cart' %}"  style="border-right: 1px solid #ccc; height: 14px; padding: 0 8px 0 0;">
 								<img src="{% static 'base/img/g-1.png' %}" />
 								购物车
-								<span id="spoNum" style="color: #ec478e;">{{ cart.number }}</span>件
+{#								<span id="spoNum" style="color: #ec478e;">0</span>件#}
 								</a>
 							</li>
 							<li></li>
@@ -50,7 +50,7 @@
 								<a>我的八方</a>
 								<div class="top_r_dingdan">
 									<ul>
-										<li><a href="#">我的订单</a></li>
+										<li><a href="{% url 'bbf:mine' %}">我的订单</a></li>
 										<li><a href="#">我的红包</a></li>
 										<li><a href="#">我的积分</a></li>
 										<li><a href="#">我的关注</a></li>
@@ -370,7 +370,6 @@
 
 <script src="{% static 'base/js/jquery-1.12.3.js' %}"></script>
 <script src="{% static 'base/js/jquery.cookie.js' %}"></script>
-{#<script src="{% static 'base/js/cart.js' %}"></script>#}
 <script src="{% static 'base/js/header--footer.js' %}"></script>
 <script src="{% static 'base/js/main_wrap.js' %}"></script>
 <script src="{% static 'base/js/sidebar.js' %}"></script>
@@ -378,6 +377,7 @@
 <script src="{% static 'base/js/jquery.js' %}"></script>
 <script src="{% static 'base/js/base.js' %}"></script>
 <script src="{% static 'base/js/swiper.js' %}"></script>
+<script src="{% static 'cart/js/cart.js' %}"></script>
 
 {% block extjs %}
 

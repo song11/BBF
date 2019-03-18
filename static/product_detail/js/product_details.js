@@ -81,11 +81,7 @@ $(function(){
 	/*点击继续购物关闭 弹出购物框*/
 	$('.close_a').on('click',function(){
 		$('#j_cartInfo').css('display','none')
-	})	
-	/*点击立即购买   和   去购物车结算*/
-	// $('#go_shop , #btn_buy').on('click',function(){
-	// 	location.href = "cart/cart.html";
-	// })
+	})
 	
 //点击加入购物车
     $(".add_cart").click(function () {
@@ -95,12 +91,11 @@ $(function(){
         }
         var $that = $(this)
         console.log(request_data)
-        $.get('/bbf/addcart/',request_data,function (response) {
+        $.get('/bbf/addgoods/',request_data,function (response) {
             console.log(response)
             if (response.status == -1){
-                $.cookie('back','market',{expires:3,path: '/'})
+                $.cookie('back','product_details',{expires:3,path: '/'})
                 window.open('/bbf/login/','_self')
-
             }
 
         })
@@ -113,55 +108,9 @@ $(function(){
 	/*点击加入购物车  弹出添加购物框*/
 		$('#j_cartInfo').css('display','block')
 		$('#CartProductNum').html($('#quantity').attr('value'))
-		console.log(parseFloat( $('#pic2').html()));
-		console.log( parseFloat($('#quantity').attr('value') ) );
-		console.log()
+
 		var pics = (parseFloat( $('#pic2').html() ) * ( parseFloat($('#quantity').attr('value') ) ) ).toFixed(2)
 		$('#CartTotalMoney').html(pics)
-		
-		
-		
-		//将当前点击的商品加入购物车(使用cookie存储商品信息)
-		var goodsSpName = $('#goodsSpName span').text();          //店铺名
-		var goodsImg = $("#smallImg").attr('src');  //商品图片
-		var goodsId = $("#goodsId").text();       //商品ID
-		var goodsName = $(".goodsName").text();     //商品名称
-		var goodsPrice = $("#pic1").text();         //市场价
-		var price_shang = $("#pic2").text();        //会员价   
-		var goodsStock = $("#STORAGE").text();      //库存数
-		var goodsNum = $('#quantity').attr('value')    //一次性所添加的商品数
-		//如果是第一次加入购物车(购物车中还没有商品, cookie中没有cart), 那就给一个空的数组
-		//如果是第二次加入购物车(购物车中已经存在商品, cookie中存在cart), 那就在原来保存在cookie中的商品基础上添加新的商品
-		var goodsList = $.cookie("cart") ? JSON.parse( $.cookie("cart") ) : [];
-
-		//先判断购物车中是否存在我即将要添加的商品
-		var isExists = false; //表示是否存在相同商品
-		for (var i=0; i<goodsList.length; i++) {
-			//如果存在相同的商品, 则把数量++, 不需要重新添加新的商品
-			if (goodsImg == goodsList[i].img) {
-				goodsList[i].num += parseInt(goodsNum);
-				var num = goodsList[i].num
-				isExists = true; //表示存在相同商品
-			}
-		}
-		if (!isExists) {
-			var goods = {
-				spName: goodsSpName,   //店铺名
-				img: goodsImg,         //商品图片
-				goodsid:goodsId,		//商品ID
-				name: goodsName,	   //商品名
-				price1: goodsPrice,    //市场价
-				price2: price_shang,   //会员价
-				stocks: goodsStock,    //库存数  
-				num:  parseInt(goodsNum),				
-			}
-			goodsList.push(goods);
-		}
-		$.cookie("cart", JSON.stringify(goodsList), {expires:22, path:"/"});
-
-
-		console.log( $.cookie("cart") );
-		// console.log( $.cookie("cart",{"goods":num}) );
 
 	})	
 	

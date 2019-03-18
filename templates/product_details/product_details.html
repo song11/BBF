@@ -213,11 +213,7 @@
                         <div class="zhonghuabaoxian"></div>
                     </div>
 
-                    <!--登录注册-->
-                    <div class="delZhc">
-                        <p><a href="{% url 'bbf:login' %}">登录</a>|<a href="{% url 'bbf:register' %}">注册</a></p>
-                        <p>八百方给您VIP的价格</p>
-                    </div>
+
 
                     <li>
                         <span class="fontGrey2">八百方价：</span>
@@ -282,9 +278,9 @@
                                 id="STORAGE"> {{ goods_list.storenums }}</span>件</span></span>
                         <!--立即购买-->
                         <div class="btn_otc">
-                            <input type="button" name="立即购买" class="buy" id="btn_buy"/>
+                            <a href="{% url 'bbf:cart' %}"><input type="button" name="立即购买" class="buy" id="btn_buy"/></a>
+{#                            <a href=" {% url 'bbf:cart' %}" ><div class="buy" id="btn_buy"></div></a>#}
                             <input type="button" name="加入购物车" class="add_cart" data-goodsid="{{ goods_list.id }}"/>
-{#                            <span class="glyphicon glyphicon-plus" data-goodsid = '{{ goods.id }}'></span>#}
                         </div>
                     </li>
 
@@ -425,9 +421,8 @@
                             </p>
                         </div>
                         <div class="btn">
-                            <form action="{% url 'bbf:cart' %}" method="">
-                            <input type="button" title="去购物车结算" value="去购物车结算" class="shop" id="go_shop" name="">
-                            </form>
+
+                            <a href="{% url 'bbf:cart' %}"><input type="button"  title="去购物车结算" value="去购物车结算" class="shop" id="go_shop" name=""></a>
                             <a class="close_a">继续购物</a>
                         </div>
                     </div>

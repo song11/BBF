@@ -81,6 +81,7 @@ function indexSideNav() {
 	$(window).scroll(function(){
 		var _scrollTops = $(window).scrollTop();	              //获取滚动条滚动的高度
 		var _heTop = $(".nav_itme_box:first").offset().top-300;   //获取楼梯1 到顶部的位置 再向上偏移300
+		// var _heTop = $(".nav_itme_box:first").offset().top-300;   //获取楼梯1 到顶部的位置 再向上偏移300
 		var _botTop =  $(".nav_itme_box:last").offset().top ;     //获取最后一个楼梯距顶部的位置并向下偏移自身高度的一半
 		//判断条件      显示 / 隐藏 楼梯
 		if(_scrollTops > _heTop && _scrollTops < _botTop){
