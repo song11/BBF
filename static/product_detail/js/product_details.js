@@ -100,6 +100,27 @@ $(function(){
 
         })
     })
+	//立即购买
+    $(".buy").click(function () {
+        request_data = {
+            'goodsid':$(this).attr('data-goodsid'),
+			'goodsNum' : $('#quantity').attr('value')
+        }
+        var $that = $(this)
+        console.log(request_data)
+        $.get('/bbf/addgoods/',request_data,function (response) {
+            console.log(response)
+            if (response.status == 1){
+                // $.cookie('back','product_details',{expires:3,path: '/'})
+                window.open('/bbf/cart/','_self')
+            }
+            else if (response.status == -1){
+                $.cookie('back','product_details',{expires:3,path: '/'})
+                window.open('/bbf/login/','_self')
+            }
+
+        })
+    })
 
 
 

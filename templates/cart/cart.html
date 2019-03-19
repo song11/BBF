@@ -8,14 +8,12 @@
 {#    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">#}
 {#    <link rel="stylesheet" href="{% static 'base/css/reset.css' %}">#}
     <link rel="stylesheet" href="{% static 'cart/css/carts.css' %}"/>
-{#    <link rel="stylesheet" href="{% static 'base/css/header--footer.css' %}">#}
-{#    <link rel="stylesheet" href="{% static 'base/css/sidebar_wrap.css' %}">#}
-{#    <link rel="stylesheet" href="{% static 'base/css/main_wrep.css' %}">#}
+
 {% endblock %}
 
 {% block extjs %}
     <script src="{% static 'cart/js/cart.js' %}"></script>
-    <script src="{% static 'base/js/jquery.cookie.js' %}"></script>
+{#    <script src="{% static 'base/js/jquery.cookie.js' %}"></script>#}
 {#    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>#}
 {% endblock %}
 {% block content %}
@@ -72,12 +70,14 @@
                         <tr>
                             <td style="text-align: left; padding-left: 10px;" width="20" valign="top">
 
-{#                                <input type="checkbox" checked name="checkbox" class="checkbox_100516" cname="checkbox_100516" value="p_1459311_100516" pids=",1459311"/>#}
+{#                                <input type="checkbox" checked name="checkbox" />#}
                                 <div class="confirm-wrapper" data-cardid="{{ cart.id }}">
                                     {% if cart.isselect %}
-                                <span class="glyphicon glyphicon-ok"></span>
+{#                                      <span class="glyphicon glyphicon-ok"></span>#}
+                                        <input type="checkbox" checked name="checkbox" class="glyphicon glyphicon-ok">
                                     {% else %}
-                                <span class="no"></span>
+{#                                        <span class="no"></span>#}
+                                        <input type="checkbox" name="checkbox" class="no">
                                     {% endif %}
                                 </div>
                             </td>
@@ -111,7 +111,7 @@
 
                             <td width="300" class="content-wrapper">
                                 <div class="mo_num bt-wrapper">
-                                    <span class="glyphicon rec" data-goodsid="{{ cart.goods.id }}" disabled="false"></span>
+                                    <span class="glyphicon rec" data-goodsid="{{ cart.goods.id }}"></span>
                                     <b class="num" data-number="{{ cart.number }}">
                                     {{ cart.number }}
                                     </b>
@@ -136,9 +136,11 @@
 
                         <div class="all" data-all="{{ isall | lower }}">
                         {% if isall %}
-                            <span class="glyphicon glyphicon-ok"></span>
+                            <input type="checkbox" name="checkAll" checked class="glyphicon glyphicon-ok"><label></label>
+{#                            <span class="glyphicon glyphicon-ok"></span>#}
                         {% else %}
-                            <span class="no"></span>
+                            <input type="checkbox" name="checkAll"  class="no"><label></label>
+{#                            <span class="no"></span>#}
                         {% endif %}
                         <b>全选</b>
                         </div>

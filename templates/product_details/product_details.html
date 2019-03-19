@@ -278,7 +278,7 @@
                                 id="STORAGE"> {{ goods_list.storenums }}</span>件</span></span>
                         <!--立即购买-->
                         <div class="btn_otc">
-                            <a href="{% url 'bbf:cart' %}"><input type="button" name="立即购买" class="buy" id="btn_buy"/></a>
+                            <input type="button" name="立即购买" class="buy" id="btn_buy" data-goodsid="{{ goods_list.id }}"/>
 {#                            <a href=" {% url 'bbf:cart' %}" ><div class="buy" id="btn_buy"></div></a>#}
                             <input type="button" name="加入购物车" class="add_cart" data-goodsid="{{ goods_list.id }}"/>
                         </div>
